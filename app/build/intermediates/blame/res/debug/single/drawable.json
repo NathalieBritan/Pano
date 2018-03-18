@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable/review_drawer_button.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/review_drawer_button.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable/btn_shutter_photo.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/btn_shutter_photo.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable/btn_pin_widget_inactive.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/btn_pin_widget_inactive.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable/cling_button_bg.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/cling_button_bg.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable/btn_shutter_video.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/btn_shutter_video.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable/btn_shutter_stop.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/btn_shutter_stop.xml"
+    }
+]

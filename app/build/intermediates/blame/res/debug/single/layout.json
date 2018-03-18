@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/layout/activity_test.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/activity_test.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/layout/activity_camera.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/activity_camera.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/layout/showcase_button.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/showcase_button.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/layout/ui_glide_thumbnail.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.github.piasy/GlideImageLoader/1.2.9/res/layout/ui_glide_thumbnail.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/layout/widget_layout.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/widget_layout.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/layout/widget_container.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/widget_container.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/layout/keyguard_widget.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/keyguard_widget.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/layout/handy.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/handy.xml"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/layout/activity_big_img.xml",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/activity_big_img.xml"
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "outputFile": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/values-el/values-el.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 9,
+                    "endColumn": 19,
+                    "endOffset": 305
+                },
+                "from": {
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-el/arrays.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 310,
+                    "endLine": 14,
+                    "endColumn": 19,
+                    "endOffset": 498
+                },
+                "from": {
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-el/arrays.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 503,
+                    "endLine": 28,
+                    "endColumn": 19,
+                    "endOffset": 945
+                },
+                "from": {
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-el/arrays.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 950,
+                    "endLine": 35,
+                    "endColumn": 19,
+                    "endOffset": 1185
+                },
+                "from": {
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-el/arrays.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1190,
+                    "endLine": 70,
+                    "endColumn": 19,
+                    "endOffset": 2344
+                },
+                "from": {
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-el/arrays.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 2349,
+                    "endLine": 78,
+                    "endColumn": 19,
+                    "endOffset": 2639
+                },
+                "from": {
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-el/arrays.xml"
+                }
+            }
+        ]
+    }
+]

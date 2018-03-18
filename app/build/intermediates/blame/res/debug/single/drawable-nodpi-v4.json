@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/picsphere_sky_up.jpg",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_up.jpg"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/picsphere_sky_fr.jpg",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_fr.jpg"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/picsphere_sky_dn.jpg",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_dn.jpg"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/picsphere_sky_rt.jpg",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_rt.jpg"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/picsphere_sky_bk.jpg",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_bk.jpg"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/picsphere_sky_lt.jpg",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_lt.jpg"
+    }
+]

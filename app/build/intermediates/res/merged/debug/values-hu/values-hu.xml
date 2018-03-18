@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>ok cid, take a picture</item>
+    </string-array>
+    <string-array name="widget_autoexposure_hints">
+        <item>Kiértékelő</item>
+        <item>Középre súlyozott</item>
+        <item>Spotmérés</item>
+    </string-array>
+    <string-array name="widget_effects_hints">
+        <item>Letiltva</item>
+        <item>Fekete &amp; Fehér</item>
+        <item>Negatív</item>
+        <item>Szolarizált</item>
+        <item>Szépia</item>
+        <item>Poszterizált</item>
+        <item>Feketetábla</item>
+        <item>Fehértábla</item>
+        <item>Víz</item>
+        <item>Dombormű</item>
+        <item>Vázlat</item>
+        <item>Neon</item>
+    </string-array>
+    <string-array name="widget_flash_hints">
+        <item>Automatikus</item>
+        <item>Letiltva</item>
+        <item>Engedélyezve</item>
+        <item>Vaku</item>
+        <item>Vörösszem csökkentés</item>
+    </string-array>
+    <string-array name="widget_scenemode_hints">
+        <item>Automatikus</item>
+        <item>Bemozdulás csökkentés</item>
+        <item>Kiterjesztett valóság</item>
+        <item>Legjobb kép</item>
+        <item>Gyerek</item>
+        <item>Háttérvilágítás</item>
+        <item>Háttérvilágítású portré</item>
+        <item>Vonalkód</item>
+        <item>Strand</item>
+        <item>Gyertyafény</item>
+        <item>Sötét</item>
+        <item>Étel</item>
+        <item>Dokumentum</item>
+        <item>Tűzijáték</item>
+        <item>Virágok</item>
+        <item>Kézben tartott szürkület</item>
+        <item>HDR</item>
+        <item>Nagy érzékenység</item>
+        <item>Tájkép</item>
+        <item>Éjszakai</item>
+        <item>Éjszakai portré</item>
+        <item>Éjszakai beltéri portré</item>
+        <item>Buli</item>
+        <item>Háziállat</item>
+        <item>Portré</item>
+        <item>Hó</item>
+        <item>Lágy bőr</item>
+        <item>Sport</item>
+        <item>Reflektorfény</item>
+        <item>Állókép</item>
+        <item>Napnyugta</item>
+        <item>Varrott</item>
+        <item>Színház</item>
+    </string-array>
+    <string-array name="widget_whitebalance_hints">
+        <item>Automatikus</item>
+        <item>Felhős</item>
+        <item>Izzólámpa</item>
+        <item>Fénycső</item>
+        <item>Napfény</item>
+        <item>Felhős napfény</item>
+    </string-array>
+</resources>

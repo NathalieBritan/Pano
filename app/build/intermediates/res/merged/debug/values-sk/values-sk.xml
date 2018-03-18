@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>sýýr</item>
+        <item>odfoť ma</item>
+    </string-array>
+    <string-array name="widget_autoexposure_hints">
+        <item>Priemer snímku</item>
+        <item>Vyváženie na stred</item>
+        <item>Bodové meranie</item>
+    </string-array>
+    <string-array name="widget_effects_hints">
+        <item>Zakázaný</item>
+        <item>Čiernobiely</item>
+        <item>Negatív</item>
+        <item>Solarizovať</item>
+        <item>Sépia</item>
+        <item>Plagát</item>
+        <item>Čierna tabuľa</item>
+        <item>Biela tabuľa</item>
+        <item>Voda</item>
+        <item>Reliéf</item>
+        <item>Náčrtok</item>
+        <item>Neón</item>
+    </string-array>
+    <string-array name="widget_flash_hints">
+        <item>Auto</item>
+        <item>Zakázaný</item>
+        <item>Povolený</item>
+        <item>Svietidlo</item>
+        <item>Odstránenie červených očí</item>
+    </string-array>
+    <string-array name="widget_scenemode_hints">
+        <item>Automatická</item>
+        <item>Odstránenie rozmazania pohybom</item>
+        <item>Rozšírená realita</item>
+        <item>Najlepší záber</item>
+        <item>Dieťa</item>
+        <item>Podsvietenie</item>
+        <item>Podsvietenie portrétu</item>
+        <item>Čiarový kód</item>
+        <item>Pláž</item>
+        <item>Šero</item>
+        <item>Tma</item>
+        <item>Dish</item>
+        <item>Dokument</item>
+        <item>Ohňostroj</item>
+        <item>Kvety</item>
+        <item>Súmrak voľnou rukou</item>
+        <item>HDR</item>
+        <item>Vysoká citlivosť</item>
+        <item>Krajina</item>
+        <item>Noc</item>
+        <item>Nočný portrét</item>
+        <item>Nočný portrét</item>
+        <item>Večierok</item>
+        <item>Zvieratá</item>
+        <item>Portrét</item>
+        <item>Sneh</item>
+        <item>Jemný odtieň pleti</item>
+        <item>Šport</item>
+        <item>Reflektor</item>
+        <item>Stála fotografia</item>
+        <item>Západ slnka</item>
+        <item>Spájanie pohybom</item>
+        <item>Divadlo</item>
+    </string-array>
+    <string-array name="widget_whitebalance_hints">
+        <item>Automaticky</item>
+        <item>Zamračené</item>
+        <item>Žiarovka</item>
+        <item>Žiarivka</item>
+        <item>Denné svetlo</item>
+        <item>Nepriame denné svetlo</item>
+    </string-array>
+</resources>

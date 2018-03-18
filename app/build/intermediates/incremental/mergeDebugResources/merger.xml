@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="1.4.0$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.github.bumptech.glide/okhttp3-integration/1.4.0/res"/></dataSet><dataSet config="3.6.0$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.6.0/res"/></dataSet><dataSet config="1.2.9$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.github.piasy/BigImageViewer/1.2.9/res"/></dataSet><dataSet config="25.3.0$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/res"/></dataSet><dataSet config="25.3.0$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/res"/></dataSet><dataSet config="25.3.0$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/res"/></dataSet><dataSet config="25.3.0$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/res"/></dataSet><dataSet config="25.3.0$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/res"/></dataSet><dataSet config="25.3.0$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/res"/></dataSet><dataSet config="1.2.9$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.github.piasy/GlideImageLoader/1.2.9/res"/></dataSet><dataSet config="1.2.2$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res"/><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/generated/res/rs/debug"/><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/debug/res"/></dataSet><dataSet config="1.4.0" from-dependency="true" generated-set="1.4.0$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.github.bumptech.glide/okhttp3-integration/1.4.0/res"/></dataSet><dataSet config="3.6.0" from-dependency="true" generated-set="3.6.0$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.6.0/res"><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.6.0/res/values/values.xml" qualifiers=""><declare-styleable name="SubsamplingScaleImageView"><attr format="reference" name="src"/><attr format="string" name="assetName"/><attr format="boolean" name="panEnabled"/><attr format="boolean" name="zoomEnabled"/><attr format="boolean" name="quickScaleEnabled"/><attr format="color" name="tileBackgroundColor"/></declare-styleable></file></source></dataSet><dataSet config="1.2.9" from-dependency="true" generated-set="1.2.9$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.github.piasy/BigImageViewer/1.2.9/res"><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.github.piasy/BigImageViewer/1.2.9/res/values/values.xml" qualifiers=""><declare-styleable name="BigImageView"><attr format="enum" name="initScaleType">
+            <enum name="centerInside" value="1"/>
+            <enum name="centerCrop" value="2"/>
+            <enum name="auto" value="3"/>
+        </attr><attr format="boolean" name="optimizeDisplay"/></declare-styleable></file></source></dataSet><dataSet config="25.3.0" from-dependency="true" generated-set="25.3.0$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/res"/></dataSet><dataSet config="25.3.0" from-dependency="true" generated-set="25.3.0$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/res"/></dataSet><dataSet config="25.3.0" from-dependency="true" generated-set="25.3.0$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/res"/></dataSet><dataSet config="25.3.0" from-dependency="true" generated-set="25.3.0$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/res"/></dataSet><dataSet config="25.3.0" from-dependency="true" generated-set="25.3.0$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/res"/></dataSet><dataSet config="25.3.0" from-dependency="true" generated-set="25.3.0$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/res"/></dataSet><dataSet config="1.2.9" from-dependency="true" generated-set="1.2.9$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.github.piasy/GlideImageLoader/1.2.9/res"><file name="ui_glide_thumbnail" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.github.piasy/GlideImageLoader/1.2.9/res/layout/ui_glide_thumbnail.xml" qualifiers="" type="layout"/></source></dataSet><dataSet config="1.2.2" from-dependency="true" generated-set="1.2.2$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res"><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-ru/arrays.xml" qualifiers="ru"><string-array name="widget_effects_hints">
+        <item>Выкл.</item>
+        <item>Ч/Б</item>
+        <item>Негатив</item>
+        <item>Соляризация</item>
+        <item>Сепия</item>
+        <item>Постеризация</item>
+        <item>Тёмная доска</item>
+        <item>Доска</item>
+        <item>Под водой</item>
+        <item>Рельеф</item>
+        <item>Рисунок</item>
+        <item>Неон</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Усреднённый</item>
+        <item>По центру кадра</item>
+        <item>Точечный замер</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Авто</item>
+        <item>Выкл.</item>
+        <item>Вкл.</item>
+        <item>Фонарик</item>
+        <item>Удаление эфф. красных глаз</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Автоматически</item>
+        <item>Устранение размытого движения</item>
+        <item>Дополненная реальность</item>
+        <item>Лучший снимок</item>
+        <item>Ребёнок</item>
+        <item>Контровой свет</item>
+        <item>Портрет с контровым светом</item>
+        <item>Штрих-код</item>
+        <item>Пляж</item>
+        <item>Искусственный свет</item>
+        <item>Темнота</item>
+        <item>Еда</item>
+        <item>Документ</item>
+        <item>Фейерверк</item>
+        <item>Цветы</item>
+        <item>Сумерки</item>
+        <item>HDR</item>
+        <item>Высокая чувствительность</item>
+        <item>Пейзаж</item>
+        <item>Ночь</item>
+        <item>Портрет ночью</item>
+        <item>Портрет ночью</item>
+        <item>Вечеринка</item>
+        <item>Домашнее животное</item>
+        <item>Портрет</item>
+        <item>Снег</item>
+        <item>Мягкая кожа</item>
+        <item>Спорт</item>
+        <item>Освещение</item>
+        <item>Стабильный снимок</item>
+        <item>Закат</item>
+        <item>Sweep stitch</item>
+        <item>Театр</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Авто</item>
+        <item>Пасмурный день</item>
+        <item>Лампа накаливания</item>
+        <item>Лампа дн. света</item>
+        <item>Солнечный свет</item>
+        <item>Облачно</item>
+    </string-array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-ru/strings.xml" qualifiers="ru"><string name="widget_settings_ruleofthirds">Сетка</string><string name="picsphere_step_ptovar">Запись ориентации камеры\u2026</string><string name="widget_effect">Цветовые эффекты</string><string name="widget_videohdr">HDR-видео</string><string name="shutter_button">Кнопка затвора</string><string name="widget_whitebalance">Баланс белого</string><string name="retouch">РЕТУШЬ</string><string name="showcase_welcome_1_body">Настройки находятся в боковой панели, \nпросто сдвиньте её.</string><string name="widget_videofr">Частота кадров видео</string><string name="widget_hdr_aebracket">Автобрекетинг</string><string name="showcase_welcome_2_title">Кнопка затвора</string><string name="mode_photo">Фото</string><string name="widget_flash">Режим вспышки</string><string name="showcase_welcome_2_body">Нажмите на кнопку затвора, чтобы сделать снимок.\nСдвиньте её для доступа к другим режимам съёмки.</string><string name="no_video_player">Не удалось воспроизвести видео. Видеоплеер не найден.</string><string name="showcase_panorama_title">Режим панорамы</string><string name="mode_picsphere">Фотосфера</string><string name="widget_autoexposure">Экспозамер</string><string name="recording">Запись</string><string name="widget_settings_autoenhance">Автоулучшение</string><string name="widget_enhancements">Улучшение цвета</string><string name="widget_exposure_compensation">Компенсация экспозиции</string><string name="widget_skintone">Улучшение цвета кожи</string><string name="showcase_panorama_body">Нажмите на кнопку затвора для начала создания панорамы,\nа затем перемещайте камеру.\nДля завершения панорамы нажмите на кнопку затвора.</string><string name="iso_hint_200">200 ISO</string><string name="iso_hint_400">400 ISO</string><string name="widget_settings">Настройки</string><string name="widget_softwarehdr">HDR</string><string name="iso_hint_hjr">HJR ISO</string><string name="picsphere_failed">Создание фотосферы завершилось с ошибкой</string><string name="picsphere_step_enblend">Смешивание изображений\u2026</string><string name="widget_iso">Чувствительность ISO</string><string name="widget_timermode">Таймер</string><string name="iso_hint_800">800 ISO</string><string name="ok">OK</string><string name="pano_panorama_rendering">Создание панорамы\u2026</string><string name="fullscreen_shutter_info">Нажмите в любом месте, чтобы сделать снимок</string><string name="iso_hint_1600">1600 ISO</string><string name="picsphere_already_rendering">Пожалуйста, подождите завершения создания текущей фотосферы</string><string name="software_hdr_notif_title">Вычисление HDR-изображения\u2026</string><string name="widget_settings_choose_widgets">Выберите виджеты в боковой панели</string><string name="picsphere_undo_button">ОТМЕНА</string><string name="widget_hdr">HDR</string><string name="showcase_welcome_1_title">Добро пожаловать!</string><string name="app_name">Focal</string><string name="launch_app">Запуск Focal</string><string name="cannot_connect_hal">Не удаётся подключиться к камере</string><string name="picsphere_toast_background_render">Создание началось\u2026</string><string name="showcase_picsphere_body">Наведите объектив на  понравившееся место,\n затем делайте снимки фотосферы.\nСледуйте по направлению синих точек.\nДолгое нажатие кнопки затвора завершает создание фотосферы.</string><string name="widget_burstmode_off">Выключить серийную съёмку</string><string name="widget_shutter_speed">Скорость съёмки</string><string name="picsphere_step_autooptimiser">Выравнивание изображений\u2026</string><string name="picsphere_rendering_progress">Создание\u2026 (%d %%)</string><string name="picsphere_failed_details">Убедитесь, что снимки накладываются друг на друга по краям</string><string name="open_in_gallery">ГАЛЕРЕЯ</string><string name="widget_burstmode">Серийная съёмка</string><string name="double_tap_to_snapshot">Нажмите дважды, чтобы сделать снимок</string><string name="please_wait">Пожалуйста, подождите\u2026</string><string name="picsphere_step_cpfind">Поиск контрольных точек\u2026</string><string name="ps_long_press_to_stop">Нажмите и удерживайте кнопку затвора для окончания фотосферы</string><string name="software_hdr_failed">Создание HDR-изображения завершилось с ошибкой</string><string name="showcase_picsphere_title">Режим фотосферы</string><string name="software_hdr_failed_details">Исходные изображения были сохранены</string><string name="widget_settings_picture_size">Размер изображения</string><string name="widget_settings_exposure_ring">Показывать кольцо экспозиции</string><string name="picsphere_step_preparing">Подготовка\u2026</string><string name="picsphere_step_ptogen">Создание метаданных\u2026</string><string name="mode_switchcam">Фронт. камера</string><string name="widget_settings_choose_widgets_button">Выберите виджеты</string><string name="no_gyroscope">Ваше устройство не оснащено гироскопом</string><string name="disabled">Выключено</string><string name="enabled">Включено</string><string name="picsphere_step_ptclean">Очистка точек\u2026</string><string name="widget_burstmode_count_shots">Серия из %d снимков</string><string name="picsphere_notif_title">Создание фотосферы\u2026</string><string name="iso_hint_auto">Авто ISO</string><string name="mode_panorama">Панорама</string><string name="mode_video">Видео</string><string name="picsphere_start_hint">Сделайте снимок для создания фотосферы</string><string name="iso_hint_100">100 ISO</string><string name="widget_burstmode_infinite">Непрерывная съёмка</string><string name="picsphere_step_nona">Сборка изображений\u2026</string><string name="picsphere_need_two_pics">Сделайте минимум два снимка</string><string name="picsphere_step_panomodify">Обрезка пустых областей\u2026</string><string name="pano_panorama_rendering_failed">Ошибка создания панорамы.\nПопробуйте сделать ещё снимок.</string><string name="no_gles20_support">Ваше устройство не поддерживает GLES2</string><string name="widget_scenemode">Режим съёмки</string></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-w820dp/dimens.xml" qualifiers="w820dp-v13"><dimen name="activity_horizontal_margin">64dp</dimen></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-it/arrays.xml" qualifiers="it"><string-array name="widget_scenemode_hints">
+        <item>Automatico</item>
+        <item>Riduzione sfocatura movimento</item>
+        <item>Realtà aumentata</item>
+        <item>Scatto migliore</item>
+        <item>Baby</item>
+        <item>Luce da dietro</item>
+        <item>Ritratto luce da dietro</item>
+        <item>Codice a barre</item>
+        <item>Spiaggia</item>
+        <item>Luce di candela</item>
+        <item>Scuro</item>
+        <item>Piatto</item>
+        <item>Documento</item>
+        <item>Fuochi d\'artificio</item>
+        <item>Fiori</item>
+        <item>Crepuscolo</item>
+        <item>HDR</item>
+        <item>Alta sensibilità</item>
+        <item>Paesaggio</item>
+        <item>Notte</item>
+        <item>Ritratto di notte</item>
+        <item>Ritratto di notte</item>
+        <item>Party</item>
+        <item>Cucciolo</item>
+        <item>Ritratto</item>
+        <item>Neve</item>
+        <item>Pelle morbida</item>
+        <item>Sport</item>
+        <item>Lampadina</item>
+        <item>Foto stabilizzata</item>
+        <item>Tramonto</item>
+        <item>Panorama multifoto</item>
+        <item>Teatro</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Valutativa</item>
+        <item>Media pesata al centro</item>
+        <item>Spot</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Automatico</item>
+        <item>Nuvoloso</item>
+        <item>Incandescente</item>
+        <item>Fluorescente</item>
+        <item>Diurno</item>
+        <item>Diurno nuvoloso</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Auto</item>
+        <item>Disattivato</item>
+        <item>Attivato</item>
+        <item>Torcia</item>
+        <item>Riduzione occhi rossi</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>sorridete</item>
+        <item>sorridi</item>
+        <item>scatta</item>
+        <item>foto</item>
+        <item>ciis</item>
+        <item>scatta una foto</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Disattivato</item>
+        <item>Bianco &amp; nero</item>
+        <item>Negativo</item>
+        <item>Solarizza</item>
+        <item>Seppia</item>
+        <item>Posterizza</item>
+        <item>Lavagna</item>
+        <item>Lavagna bianca</item>
+        <item>Acqua</item>
+        <item>Rilievo</item>
+        <item>Disegno</item>
+        <item>Neon</item>
+    </string-array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-cs/arrays.xml" qualifiers="cs"><string-array name="widget_scenemode_hints">
+        <item>Automatický</item>
+        <item>Redukce rozmazání</item>
+        <item>Rozšířená realita</item>
+        <item>Nejlepší snímek</item>
+        <item>Dítě</item>
+        <item>Protisvětlo</item>
+        <item>Portrét s protisvětlem</item>
+        <item>Čárový kód</item>
+        <item>Pláž</item>
+        <item>Osvíceno svíčkami</item>
+        <item>Temné</item>
+        <item>Jídlo</item>
+        <item>Dokument</item>
+        <item>Ohňostroj</item>
+        <item>Květiny</item>
+        <item>Stmívání bez stativu</item>
+        <item>HDR</item>
+        <item>Vysoká citlivost</item>
+        <item>Krajina</item>
+        <item>Noc</item>
+        <item>Noční portrét</item>
+        <item>Noční portrét</item>
+        <item>Párty</item>
+        <item>Mazlíček</item>
+        <item>Portrét</item>
+        <item>Sníh</item>
+        <item>Měkké světlo</item>
+        <item>Sporty</item>
+        <item>Reflektor</item>
+        <item>Ze stativu</item>
+        <item>Západ slunce</item>
+        <item>Plynulé panorama</item>
+        <item>Divadlo</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Celoplošné průměrové</item>
+        <item>Se zdůrazněným středem</item>
+        <item>Bodové</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Vypnutý</item>
+        <item>Černobílý</item>
+        <item>Negativní</item>
+        <item>Solarizace</item>
+        <item>Sépie</item>
+        <item>Posterizace</item>
+        <item>Černá tabule</item>
+        <item>Bílá tabule</item>
+        <item>Voda</item>
+        <item>Reliéf</item>
+        <item>Skica</item>
+        <item>Žádný</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>sýr</item>
+        <item>cide, udělej fotku</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Automaticky</item>
+        <item>Zakázán</item>
+        <item>Povolen</item>
+        <item>Svítilna</item>
+        <item>Redukce červených očí</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Automaticky</item>
+        <item>Zataženo</item>
+        <item>Žárovka</item>
+        <item>Zářivka</item>
+        <item>Denní světlo</item>
+        <item>Zataženo ve dne</item>
+    </string-array></file><file name="btn_shutter_stop" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/btn_shutter_stop.xml" qualifiers="" type="drawable"/><file name="btn_shutter_photo" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/btn_shutter_photo.xml" qualifiers="" type="drawable"/><file name="btn_shutter_video" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/btn_shutter_video.xml" qualifiers="" type="drawable"/><file name="review_drawer_button" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/review_drawer_button.xml" qualifiers="" type="drawable"/><file name="btn_pin_widget_inactive" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/btn_pin_widget_inactive.xml" qualifiers="" type="drawable"/><file name="cling_button_bg" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable/cling_button_bg.xml" qualifiers="" type="drawable"/><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-el/arrays.xml" qualifiers="el"><string-array name="widget_scenemode_hints">
+        <item>Αυτόματη</item>
+        <item>Μείωση motion blur</item>
+        <item>Επαυξημένη πραγματικότητα</item>
+        <item>Καλύτερη λήψη</item>
+        <item>Μωρό</item>
+        <item>Οπίσθιος φωτισμός</item>
+        <item>Πορτραίτο με οπίσθιο φωτισμό</item>
+        <item>Barcode</item>
+        <item>Παραλία</item>
+        <item>Φως κεριού</item>
+        <item>Σκοτάδι</item>
+        <item>Πιάτο</item>
+        <item>Έγγραφο</item>
+        <item>Πυροτεχνήματα</item>
+        <item>Λουλούδια</item>
+        <item>Αμυδρό φως</item>
+        <item>HDR</item>
+        <item>Υψηλή ευαισθησία</item>
+        <item>Τοπίο</item>
+        <item>Νύχτα</item>
+        <item>Νυχτερινό πορτραίτο</item>
+        <item>Νυχτερινό πορτραίτο</item>
+        <item>Πάρτι</item>
+        <item>Κατοικίδιο</item>
+        <item>Πορτραίτο</item>
+        <item>Χιόνι</item>
+        <item>Απαλό δέρμα</item>
+        <item>Αθλήματα</item>
+        <item>Προβολέας</item>
+        <item>Σταθερή φωτογραφία</item>
+        <item>Ηλιοβασίλεμα</item>
+        <item>Λειτουργία sweep</item>
+        <item>Θέατρο</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Μέσος όρος κάδρου</item>
+        <item>Μέτρηση κέντρου βάρους</item>
+        <item>Σημειακή μέτρηση</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>ok cid, take a picture</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Αυτόματη</item>
+        <item>Συννεφιά</item>
+        <item>Λαμπτήρας πυρακτώσεως</item>
+        <item>Λαμπτήρας φθορισμού</item>
+        <item>Φως ημέρας</item>
+        <item>Φώς συννεφιασμένης ημέρας</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Αυτόματο</item>
+        <item>Απενεργοποιημένο</item>
+        <item>Ενεργοποιημένο</item>
+        <item>Φακός</item>
+        <item>Μείωση κόκκινων ματιών</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Απενεργοποιημένο</item>
+        <item>Ασπρόμαυρο</item>
+        <item>Αρνητικό</item>
+        <item>Υπερφωτισμός</item>
+        <item>Σέπια</item>
+        <item>Ποστεροποίηση</item>
+        <item>Μαύρος πίνακας</item>
+        <item>Άσπρος πίνακας</item>
+        <item>Νερό</item>
+        <item>Ξεθώριασμα</item>
+        <item>Σκίτσο</item>
+        <item>Neon</item>
+    </string-array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-da/arrays.xml" qualifiers="da"><string-array name="widget_whitebalance_hints">
+        <item>Automatisk</item>
+        <item>Overskyet</item>
+        <item>Hvidglødende</item>
+        <item>Fluorescerende</item>
+        <item>Dagslys</item>
+        <item>Overskyet dagslys</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>ok cid, take a picture</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Deaktiveret</item>
+        <item>Sort &amp; Hvid</item>
+        <item>Negativ</item>
+        <item>Solarisering</item>
+        <item>Sepia</item>
+        <item>Posterisering</item>
+        <item>Sort tavle</item>
+        <item>Hvid tavle</item>
+        <item>Vand</item>
+        <item>Relief</item>
+        <item>Skitse</item>
+        <item>Neon</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Automatisk</item>
+        <item>Antisløring</item>
+        <item>Augmenteret virkelighed</item>
+        <item>Bedste foto</item>
+        <item>Baby</item>
+        <item>Bagbelysning</item>
+        <item>Bagbelyst portræt</item>
+        <item>Stregkode</item>
+        <item>Strand</item>
+        <item>Stearinlys</item>
+        <item>Mørk</item>
+        <item>Fad</item>
+        <item>Dokument</item>
+        <item>Fyrværkeri</item>
+        <item>Blomster</item>
+        <item>Håndholdt Skumring</item>
+        <item>HDR</item>
+        <item>Høj følsomhed</item>
+        <item>Landskab</item>
+        <item>Nat</item>
+        <item>Natportræt</item>
+        <item>Natportræt</item>
+        <item>Fest</item>
+        <item>Kæledyr</item>
+        <item>Portræt</item>
+        <item>Sne</item>
+        <item>Blød hud</item>
+        <item>Sport</item>
+        <item>Spotlight</item>
+        <item>Stabilt foto</item>
+        <item>Solnedgang</item>
+        <item>Sammenhæftning</item>
+        <item>Teater</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Auto</item>
+        <item>Deaktiveret</item>
+        <item>Aktiveret</item>
+        <item>Lommelygte</item>
+        <item>Rødøjereduktion</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Rammegennemsnit</item>
+        <item>Centervægtet</item>
+        <item>Spotmåling</item>
+    </string-array></file><file name="widget_container" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/widget_container.xml" qualifiers="" type="layout"/><file name="activity_camera" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/activity_camera.xml" qualifiers="" type="layout"/><file name="showcase_button" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/showcase_button.xml" qualifiers="" type="layout"/><file name="handy" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/handy.xml" qualifiers="" type="layout"/><file name="activity_test" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/activity_test.xml" qualifiers="" type="layout"/><file name="widget_layout" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/widget_layout.xml" qualifiers="" type="layout"/><file name="activity_big_img" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/activity_big_img.xml" qualifiers="" type="layout"/><file name="keyguard_widget" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/layout/keyguard_widget.xml" qualifiers="" type="layout"/><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-pt-rBR/arrays.xml" qualifiers="pt-rBR"><string-array name="widget_effects_hints">
+        <item>Desativado</item>
+        <item>Preto &amp; Branco</item>
+        <item>Negativo</item>
+        <item>Solarização</item>
+        <item>Sépia</item>
+        <item>Posterização</item>
+        <item>Quadro negro</item>
+        <item>Quadro branco</item>
+        <item>Aqua</item>
+        <item>Realçar</item>
+        <item>Rascunho</item>
+        <item>Néon</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Quadro médio</item>
+        <item>Ponderado ao centro</item>
+        <item>Medição pontual</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Auto</item>
+        <item>Desativado</item>
+        <item>Ativado</item>
+        <item>Tocha</item>
+        <item>Redução de olhos vermelhos</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>ok cid, tire uma foto</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Automático</item>
+        <item>Redução de Desfocagem</item>
+        <item>Realidade aumentada</item>
+        <item>Melhor foto</item>
+        <item>Bebê</item>
+        <item>Luz de fundo</item>
+        <item>Luz de fundo retrato</item>
+        <item>Código de barras</item>
+        <item>Praia</item>
+        <item>Luz de velas</item>
+        <item>Escuro</item>
+        <item>Prato</item>
+        <item>Documento</item>
+        <item>Fogos de artifício</item>
+        <item>Flores</item>
+        <item>Crepúsculo</item>
+        <item>HDR</item>
+        <item>Alta sensitividade</item>
+        <item>Paisagem</item>
+        <item>Noite</item>
+        <item>Noite retrato</item>
+        <item>Noite retrato</item>
+        <item>Festa</item>
+        <item>Bicho de estimação</item>
+        <item>Retrato</item>
+        <item>Neve</item>
+        <item>Pele</item>
+        <item>Esportes</item>
+        <item>Holofote</item>
+        <item>Moto estável</item>
+        <item>Pôr do sol</item>
+        <item>Varre ponto</item>
+        <item>Teatro</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Automático</item>
+        <item>Nublado</item>
+        <item>Incandescente</item>
+        <item>Fluorescente</item>
+        <item>Luz do dia</item>
+        <item>Luz do dia nublado</item>
+    </string-array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values/colors.xml" qualifiers=""><color name="pano_saving_done">#FF5E5233</color><color name="pano_saving_indication">#FF99CC00</color><color name="widget_toggle_active">#9033B5E5</color><color name="pano_progress_indication_fast">#FFFF2222</color><color name="widget_toggle_pressed">#BB33B5E5</color><color name="clock_white">#FFFFFF</color><color name="review_drawer_button_bg">#88333333</color><color name="review_drawer_button_pressed">#8833B5E5</color><color name="widget_option_active">#FF33B5E5</color><color name="widget_background">#AA000000</color><color name="pano_progress_empty">#FF2E2E2E</color><color name="pano_progress_indication">#FF0099CC</color><color name="clock_red">#FF4444</color><color name="pano_progress_done">#FF33525E</color></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values/arrays.xml" qualifiers=""><string-array name="widget_flash_hints">
+        <item>Auto</item>
+        <item>Disabled</item>
+        <item>Enabled</item>
+        <item>Torch</item>
+        <item>Red-eye reduction</item>
+    </string-array><string-array name="widget_shutter_speed_display_values" translatable="false">
+        <item>Auto</item>
+        <item>1\"</item>
+        <item>1/2</item>
+        <item>1/4</item>
+        <item>1/8</item>
+        <item>1/16</item>
+        <item>1/32</item>
+        <item>1/100</item>
+        <item>1/125</item>
+        <item>1/250</item>
+        <item>1/500</item>
+        <item>1/1000</item>
+        <item>1/2000</item>
+        <item>1/3333</item>
+    </string-array><array name="widget_flash_icons" translatable="false">
+        <item>@drawable/ic_widget_flash_auto</item>
+        <item>@drawable/ic_widget_flash_off</item>
+        <item>@drawable/ic_widget_flash_on</item>
+        <item>@drawable/ic_widget_flash_torch</item>
+        <item>@drawable/ic_widget_flash_redeye</item>
+    </array><string-array name="widget_iso_hints" translatable="false">
+        <item>@string/iso_hint_auto</item>
+        <item>@string/iso_hint_hjr</item>
+        <item>@string/iso_hint_100</item>
+        <item>@string/iso_hint_200</item>
+        <item>@string/iso_hint_400</item>
+        <item>@string/iso_hint_800</item>
+        <item>@string/iso_hint_1600</item>
+    </string-array><array name="widget_iso_icons" translatable="false">
+        <item>@drawable/ic_widget_iso_auto</item>
+        <item>@drawable/ic_widget_iso_hjr</item>
+        <item>@drawable/ic_widget_iso_100</item>
+        <item>@drawable/ic_widget_iso_200</item>
+        <item>@drawable/ic_widget_iso_400</item>
+        <item>@drawable/ic_widget_iso_800</item>
+        <item>@drawable/ic_widget_iso_1600</item>
+    </array><string-array name="widget_scenemode_hints">
+        <item>Automatic</item>
+        <item>Motion Blur Reduction</item>
+        <item>Augmented Reality</item>
+        <item>Best Shot</item>
+        <item>Baby</item>
+        <item>Backlight</item>
+        <item>Portrait Backlight</item>
+        <item>Barcode</item>
+        <item>Beach</item>
+        <item>Candlelight</item>
+        <item>Dark</item>
+        <item>Dish</item>
+        <item>Document</item>
+        <item>Fireworks</item>
+        <item>Flowers</item>
+        <item>Handheld Twilight</item>
+        <item>HDR</item>
+        <item>High sensitivity</item>
+        <item>Landscape</item>
+        <item>Night</item>
+        <item>Night portrait</item>
+        <item>Night portrait</item>
+        <item>Party</item>
+        <item>Pet</item>
+        <item>Portrait</item>
+        <item>Snow</item>
+        <item>Soft skin</item>
+        <item>Sports</item>
+        <item>Spotlight</item>
+        <item>Steady photo</item>
+        <item>Sunset</item>
+        <item>Sweep stitch</item>
+        <item>Theatre</item>
+    </string-array><array name="widget_whitebalance_icons" translatable="false">
+        <item>@drawable/ic_widget_wb_auto</item>
+        <item>@drawable/ic_widget_wb_cloudy</item>
+        <item>@drawable/ic_widget_wb_incandescent</item>
+        <item>@drawable/ic_widget_wb_fluorescent</item>
+        <item>@drawable/ic_widget_wb_daylight</item>
+        <item>@drawable/ic_widget_wb_cloudy_daylight</item>
+    </array><string-array name="widget_autoexposure_values" translatable="false">
+        <item>frame-average</item>
+        <item>center-weighted</item>
+        <item>spot-metering</item>
+    </string-array><array name="widget_effects_icons" translatable="false">
+        <item>@drawable/ic_widget_effect_none</item>
+        <item>@drawable/ic_widget_effect_mono</item>
+        <item>@drawable/ic_widget_effect_negative</item>
+        <item>@drawable/ic_widget_effect_solarize</item>
+        <item>@drawable/ic_widget_effect_sepia</item>
+        <item>@drawable/ic_widget_effect_posterize</item>
+        <item>@drawable/ic_widget_effect_blackboard</item>
+        <item>@drawable/ic_widget_effect_whiteboard</item>
+        <item>@drawable/ic_widget_effect_aqua</item>
+        <item>@drawable/ic_widget_effect_emboss</item>
+        <item>@drawable/ic_widget_effect_sketch</item>
+        <item>@drawable/ic_widget_effect_neon</item>
+    </array><string-array name="widget_whitebalance_hints">
+        <item>Automatic</item>
+        <item>Cloudy</item>
+        <item>Incandescent</item>
+        <item>Fluorescent</item>
+        <item>Daylight</item>
+        <item>Cloudy Daylight</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>ok cid, take a picture</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Disabled</item>
+        <item>Black &amp; White</item>
+        <item>Negative</item>
+        <item>Solarize</item>
+        <item>Sepia</item>
+        <item>Posterize</item>
+        <item>Blackboard</item>
+        <item>Whiteboard</item>
+        <item>Aqua</item>
+        <item>Emboss</item>
+        <item>Sketch</item>
+        <item>Neon</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Frame average</item>
+        <item>Center weighted</item>
+        <item>Spot metering</item>
+    </string-array><array name="widget_scenemode_icons" translatable="false">
+        <item>@drawable/ic_widget_scenemode_auto</item>
+        <item>@drawable/ic_widget_scenemode_antimotionblur</item>
+        <item>@drawable/ic_widget_scenemode_ar</item>
+        <item>@drawable/ic_widget_scenemode_asd</item>
+        <item>@drawable/ic_widget_scenemode_baby</item>
+        <item>@drawable/ic_widget_scenemode_backlight</item>
+        <item>@drawable/ic_widget_scenemode_backlightportrait</item>
+        <item>@drawable/ic_widget_scenemode_barcode</item>
+        <item>@drawable/ic_widget_scenemode_beach</item>
+        <item>@drawable/ic_widget_scenemode_candlelight</item>
+        <item>@drawable/ic_widget_scenemode_dark</item>
+        <item>@drawable/ic_widget_scenemode_dish</item>
+        <item>@drawable/ic_widget_scenemode_document</item>
+        <item>@drawable/ic_widget_scenemode_fireworks</item>
+        <item>@drawable/ic_widget_scenemode_flowers</item>
+        <item>@drawable/ic_widget_scenemode_handheld</item>
+        <item>@drawable/ic_widget_scenemode_hdr</item>
+        <item>@drawable/ic_widget_scenemode_highsensitivity</item>
+        <item>@drawable/ic_widget_scenemode_landscape</item>
+        <item>@drawable/ic_widget_scenemode_night</item>
+        <item>@drawable/ic_widget_scenemode_nightportrait</item>
+        <item>@drawable/ic_widget_scenemode_nightportrait</item>
+        <item>@drawable/ic_widget_scenemode_party</item>
+        <item>@drawable/ic_widget_scenemode_pet</item>
+        <item>@drawable/ic_widget_scenemode_portrait</item>
+        <item>@drawable/ic_widget_scenemode_snow</item>
+        <item>@drawable/ic_widget_scenemode_softskin</item>
+        <item>@drawable/ic_widget_scenemode_sports</item>
+        <item>@drawable/ic_widget_scenemode_spotlight</item>
+        <item>@drawable/ic_widget_scenemode_steadyphoto</item>
+        <item>@drawable/ic_widget_scenemode_sunset</item>
+        <item>@drawable/ic_widget_scenemode_sweepstitch</item>
+        <item>@drawable/ic_widget_scenemode_theatre</item>
+    </array><string-array name="widget_scenemode_values" translatable="false">
+        <item>auto</item>
+        <item>anti-motion-blur</item>
+        <item>AR</item>
+        <item>asd</item>
+        <item>baby</item>
+        <item>backlight</item>
+        <item>backlight-portrait</item>
+        <item>barcode</item>
+        <item>beach</item>
+        <item>candlelight</item>
+        <item>dark</item>
+        <item>dish</item>
+        <item>document</item>
+        <item>fireworks</item>
+        <item>flowers</item>
+        <item>handheld-twilight</item>
+        <item>hdr</item>
+        <item>high-sensitivity</item>
+        <item>landscape</item>
+        <item>night</item>
+        <item>nightportrait</item>
+        <item>night-portrait</item>
+        <item>party</item>
+        <item>pet</item>
+        <item>portrait</item>
+        <item>snow</item>
+        <item>soft-skin</item>
+        <item>sports</item>
+        <item>spot-light</item>
+        <item>steadyphoto</item>
+        <item>sunset</item>
+        <item>sweep-stitch</item>
+        <item>theatre</item>
+    </string-array><string-array name="widget_iso_values" translatable="false">
+        <item>auto</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+    </string-array><string-array name="hardware_hdr_keys" translatable="false">
+        <item>ae-bracket-hdr</item>
+    </string-array><string-array name="widget_effects_values" translatable="false">
+        <item>none</item>
+        <item>mono</item>
+        <item>negative</item>
+        <item>solarize</item>
+        <item>sepia</item>
+        <item>posterize</item>
+        <item>blackboard</item>
+        <item>whiteboard</item>
+        <item>aqua</item>
+        <item>emboss</item>
+        <item>sketch</item>
+        <item>neon</item>
+    </string-array><string-array name="widget_flash_values" translatable="false">
+        <item>auto</item>
+        <item>off</item>
+        <item>on</item>
+        <item>torch</item>
+        <item>red-eye</item>
+    </string-array><string-array name="widget_whitebalance_values" translatable="false">
+        <item>auto</item>
+        <item>cloudy</item>
+        <item>incandescent</item>
+        <item>fluorescent</item>
+        <item>daylight</item>
+        <item>cloudy-daylight</item>
+    </string-array><array name="widget_autoexposure_icons" translatable="false">
+        <item>@drawable/ic_widget_autoexposure_frameaverage</item>
+        <item>@drawable/ic_widget_autoexposure_centerweighted</item>
+        <item>@drawable/ic_widget_autoexposure_spotmetering</item>
+    </array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values/styles.xml" qualifiers=""><style name="ShowcaseTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#49C0EC</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style><style name="ShowcaseView">
+        <item name="sv_titleTextColor">#33B5E5</item>
+        <item name="sv_detailTextColor">#FFFFFF</item>
+        <item name="sv_backgroundColor">#BB333333</item>
+        <item name="sv_buttonText">@string/ok</item>
+    </style><style name="AppTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+    </style><style name="ShowcaseButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+    </style><style name="ShowcaseText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style><style name="ShowcaseView.Light">
+        <item name="sv_titleTextColor">#33B5E5</item>
+        <item name="sv_detailTextColor">#444</item>
+        <item name="sv_backgroundColor">#3333B5E5</item>
+        <item name="sv_buttonText">@string/ok</item>
+    </style></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values/config.xml" qualifiers=""><bool name="config_stopPreviewBetweenShots">false</bool><integer name="config_panoramaDefaultWidth">1280</integer><integer name="config_maxTextureSize">4096</integer><bool name="config_usePreviewForVideoSnapshot">false</bool><bool name="config_useSamsungHDR">false</bool><bool name="config_qualcommZslCameraMode">true</bool><bool name="config_useSamsungZSL">false</bool><integer name="config_panoramaDefaultHeight">720</integer></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values/strings.xml" qualifiers=""><string name="software_hdr_notif_title">Computing HDR picture\u2026</string><string name="iso_hint_hjr">Hands-Jitter Reduction ISO</string><string name="no_video_player">Couldn\'t play the video, no player found</string><string name="iso_hint_200">200 ISO</string><string name="picsphere_rendering_progress">Rendering\u2026 (%d %%)</string><string name="picsphere_failed_details">Make sure pictures only overlap on their edges.</string><string name="picsphere_need_two_pics">You need at least two pictures.</string><string name="picsphere_step_nona">Stitching pictures\u2026</string><string name="showcase_welcome_1_body">The options are in the sidebar,\njust slide it.</string><string name="iso_hint_400">400 ISO</string><string name="please_wait">Please wait\u2026</string><string name="widget_scenemode">Scene mode</string><string name="picsphere_step_enblend">Blending pictures\u2026</string><string name="showcase_panorama_title">Panorama mode</string><string name="iso_hint_800">800 ISO</string><string name="widget_settings_exposure_ring">Show exposure ring</string><string name="mode_panorama">Panorama</string><string name="widget_effect">Effects</string><string name="video_res_mms">MMS (288p)</string><string name="picsphere_step_ptovar">Writing camera orientation\u2026</string><string name="showcase_welcome_2_body">Tap the shutter button to take a picture.\nSlide it to access other capture modes.</string><string name="no_gyroscope">Your device doesn\'t have a gyroscope</string><string name="picsphere_step_autooptimiser">Aligning images\u2026</string><string name="retouch">RETOUCH</string><string name="no_gles20_support">Your device doesn\'t support GLES2</string><string name="picsphere_step_ptogen">Generating metadata\u2026</string><string name="video_res_720p">HD (720p)</string><string name="enabled">Enabled</string><string name="widget_timermode">Timer mode</string><string name="showcase_welcome_1_title">Welcome!</string><string name="picsphere_notif_title">Rendering PicSphere\u2026</string><string name="widget_flash">Flash</string><string name="ok">OK</string><string name="cannot_connect_hal">Unable to connect to camera</string><string name="video_res_480p">SD (480p)</string><string name="iso_hint_auto">Automatic ISO</string><string name="widget_videofr">Video framerate</string><string name="widget_hdr">High Dynamic Range</string><string name="widget_shutter_speed">Shutter speed</string><string name="showcase_picsphere_title">PicSphere mode</string><string name="mode_picsphere">PicSphere</string><string name="widget_exposure_compensation">Exposure comp.</string><string name="picsphere_failed">PicSphere rendering failed</string><string name="launch_app">Launch Focal</string><string name="showcase_panorama_body">Tap the shutter to start your panorama,\nthen pan what you want to capture.\nOnce done, tap the shutter button again.</string><string name="iso_hint_100">100 ISO</string><string name="shutter_button">Shutter button</string><string name="widget_iso">ISO</string><string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmss"</string><string name="widget_burstmode_infinite">Infinite burst</string><string name="widget_settings_ruleofthirds">Rule of Thirds</string><string name="video_res_1080p">Full HD (1080p)</string><string name="pano_panorama_rendering_failed">Failed to render panorama.\nTry to take a shorter one.</string><string name="software_hdr_failed">HDR rendering failed</string><string name="widget_burstmode_off">Disable burst mode</string><string name="widget_burstmode">Burst mode</string><string name="showcase_picsphere_body">Align your first picture where you like,\nthen tap the shutter to take each picture\nof the sphere. The blue dots are points\nof reference you can follow.\nLong-press the shutter once you\'re done.</string><string name="widget_softwarehdr">High Dynamic Range</string><string name="ps_long_press_to_stop">Long-press the shutter button to\nfinish your sphere.</string><string name="open_in_gallery">GALLERY</string><string name="widget_autoexposure">Light measure</string><string name="picsphere_step_ptclean">Cleaning points\u2026</string><string name="widget_hdr_aebracket">Auto bracketing</string><string name="picsphere_already_rendering">Please wait for the current PicSphere to render</string><string name="mode_photo">Photo</string><string name="iso_hint_1600">1600 ISO</string><string name="fullscreen_shutter_info">Tap anywhere to shoot</string><string name="widget_settings_picture_size">Image size</string><string name="app_name">全景相机</string><string name="widget_settings_choose_widgets_button">Choose widgets</string><string name="widget_settings">Settings</string><string name="picsphere_step_panomodify">Cropping empty areas\u2026</string><string name="double_tap_to_snapshot">Double-tap to take a picture</string><string name="picsphere_undo_button">UNDO</string><string name="widget_skintone">Skin Tone Enhancement</string><string name="recording">Recording</string><string name="widget_videohdr">Video High Dynamic Range</string><string name="picsphere_step_preparing">Preparing\u2026</string><string name="software_hdr_failed_details">The source pictures have been kept.</string><string name="picsphere_start_hint">Take a picture to start a sphere</string><string name="widget_whitebalance">White balance</string><string name="picsphere_step_cpfind">Finding control points\u2026</string><string name="disabled">Disabled</string><string name="widget_burstmode_count_shots">Burst %d shots</string><string name="widget_settings_choose_widgets">Choose widgets in the sidebar</string><string name="picsphere_toast_background_render">Rendering started\u2026</string><string name="mode_video">Video</string><string name="mode_switchcam">Facing</string><string name="widget_enhancements">Color adjust.</string><string name="widget_settings_autoenhance">Auto-enhancement</string><string name="pano_panorama_rendering">正在合成全景图片\u2026</string><string name="showcase_welcome_2_title">Shutter button</string></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="CustomTheme">
+        <attr format="reference" name="showcaseViewStyle"/>
+    </declare-styleable><declare-styleable name="ButtonBarContainerTheme">
+        <attr format="reference" name="buttonBarStyle"/>
+        <attr format="reference" name="buttonBarButtonStyle"/>
+    </declare-styleable><declare-styleable name="ShowcaseView">
+        <attr format="color|reference" name="sv_backgroundColor"/>
+        <attr format="color|reference" name="sv_detailTextColor"/>
+        <attr format="color|reference" name="sv_titleTextColor"/>
+        <attr format="color|reference" name="sv_buttonBackgroundColor"/>
+        <attr format="color|reference" name="sv_buttonForegroundColor"/>
+        <attr format="string|reference" name="sv_buttonText"/>
+    </declare-styleable></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values/ids.xml" qualifiers=""><item name="showcase_title_text" type="id"/><item name="showcase_button" type="id"/><item name="showcase_sub_text" type="id"/></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values/integers.xml" qualifiers=""><dimen name="review_drawer_thumb_size">96dp</dimen><dimen name="ringpad_radius">140dp</dimen><integer name="widget_default_max_width">3</integer><integer name="widget_option_label_font_size">12</integer><dimen name="circletimer_diamond_size">6dip</dimen><dimen name="widget_spacing">8dp</dimen><dimen name="widget_toggle_button_padding">8dp</dimen><integer name="widget_option_label_font_size_small">10</integer><dimen name="timer_circle_width">125dip</dimen><dimen name="widget_option_button_size">64dp</dimen><dimen name="widget_container_padding">1dp</dimen><dimen name="circletimer_circle_size">4dip</dimen><dimen name="widget_option_button_padding">4dp</dimen><dimen name="ringpad_edge_spacing">32dp</dimen><dimen name="timer_circle_diameter">100dip</dimen><dimen name="circletimer_marker_size">16dip</dimen></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-pl/arrays.xml" qualifiers="pl"><string-array name="transformer_timer_voice_words">
+        <item>Cid</item>
+        <item>Civ</item>
+        <item>Whiskey</item>
+        <item>Cheese</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Wyłączony</item>
+        <item>Czarny &amp; Biały</item>
+        <item>Negatyw</item>
+        <item>Solaryzacja</item>
+        <item>Sepia</item>
+        <item>Posteryzacja</item>
+        <item>Czarna tablica</item>
+        <item>Biała tablica</item>
+        <item>Woda</item>
+        <item>Wyrycie</item>
+        <item>Szkic</item>
+        <item>Neon</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Automatyczny</item>
+        <item>Redukcja rozmycia w ruchu</item>
+        <item>Rozszerzona rzeczywistość</item>
+        <item>Najlepsze zdjęcie</item>
+        <item>Dziecko</item>
+        <item>Pod światło</item>
+        <item>Porter pod światło</item>
+        <item>Kod kreskowy</item>
+        <item>Plaża</item>
+        <item>Światło świecy</item>
+        <item>Mrok</item>
+        <item>Jedzenie</item>
+        <item>Dokument</item>
+        <item>Fajerwerki</item>
+        <item>Kwiaty</item>
+        <item>Zmierzch</item>
+        <item>HDR</item>
+        <item>Wysoka czułość</item>
+        <item>Krajobraz</item>
+        <item>Noc</item>
+        <item>Nocny portret</item>
+        <item>Nocny portret</item>
+        <item>Impreza</item>
+        <item>Zwierzę</item>
+        <item>Portret</item>
+        <item>Śnieg</item>
+        <item>Miękka skóra</item>
+        <item>Sport</item>
+        <item>Reflektor</item>
+        <item>Stacjonarne zdjęcie</item>
+        <item>Zachód słońca</item>
+        <item>Zszyta panorama</item>
+        <item>Teatr</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Średnia pola</item>
+        <item>Centralnie ważony</item>
+        <item>Punktowy</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Automatyczny</item>
+        <item>Pochmurno</item>
+        <item>Rozżarzony</item>
+        <item>Fluorescencyjny</item>
+        <item>Światło dzienne</item>
+        <item>Zachmurzony dzień</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Automatyczny</item>
+        <item>Wyłączony</item>
+        <item>Włączony</item>
+        <item>Latarka</item>
+        <item>Redukcja czerwonych oczu</item>
+    </string-array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-sk/arrays.xml" qualifiers="sk"><string-array name="widget_effects_hints">
+        <item>Zakázaný</item>
+        <item>Čiernobiely</item>
+        <item>Negatív</item>
+        <item>Solarizovať</item>
+        <item>Sépia</item>
+        <item>Plagát</item>
+        <item>Čierna tabuľa</item>
+        <item>Biela tabuľa</item>
+        <item>Voda</item>
+        <item>Reliéf</item>
+        <item>Náčrtok</item>
+        <item>Neón</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Auto</item>
+        <item>Zakázaný</item>
+        <item>Povolený</item>
+        <item>Svietidlo</item>
+        <item>Odstránenie červených očí</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Automatická</item>
+        <item>Odstránenie rozmazania pohybom</item>
+        <item>Rozšírená realita</item>
+        <item>Najlepší záber</item>
+        <item>Dieťa</item>
+        <item>Podsvietenie</item>
+        <item>Podsvietenie portrétu</item>
+        <item>Čiarový kód</item>
+        <item>Pláž</item>
+        <item>Šero</item>
+        <item>Tma</item>
+        <item>Dish</item>
+        <item>Dokument</item>
+        <item>Ohňostroj</item>
+        <item>Kvety</item>
+        <item>Súmrak voľnou rukou</item>
+        <item>HDR</item>
+        <item>Vysoká citlivosť</item>
+        <item>Krajina</item>
+        <item>Noc</item>
+        <item>Nočný portrét</item>
+        <item>Nočný portrét</item>
+        <item>Večierok</item>
+        <item>Zvieratá</item>
+        <item>Portrét</item>
+        <item>Sneh</item>
+        <item>Jemný odtieň pleti</item>
+        <item>Šport</item>
+        <item>Reflektor</item>
+        <item>Stála fotografia</item>
+        <item>Západ slnka</item>
+        <item>Spájanie pohybom</item>
+        <item>Divadlo</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Priemer snímku</item>
+        <item>Vyváženie na stred</item>
+        <item>Bodové meranie</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Automaticky</item>
+        <item>Zamračené</item>
+        <item>Žiarovka</item>
+        <item>Žiarivka</item>
+        <item>Denné svetlo</item>
+        <item>Nepriame denné svetlo</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>sýýr</item>
+        <item>odfoť ma</item>
+    </string-array></file><file name="ic_picsphere_undo" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_picsphere_undo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_burst_10" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_burst_10.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_flash_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_flash_auto.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_barcode" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_barcode.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_videofr_90" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_videofr_90.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_iso_800" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_iso_800.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_sunset" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_sunset.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_blackboard" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_blackboard.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_spotlight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_spotlight.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_hdr_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_hdr_off.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_flash" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_flash.png" qualifiers="xhdpi-v4" type="drawable"/><file name="hud_focus_ring_success" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/hud_focus_ring_success.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_portrait" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_portrait.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_solarize" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_solarize.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_contrast" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_contrast.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_settings_resolution" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_settings_resolution.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_ring_camera_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_camera_hover.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_burst_5" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_burst_5.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_wb_cloudy" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_wb_cloudy.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_document" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_document.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_burst_15" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_burst_15.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_night" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_night.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_flash_redeye" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_flash_redeye.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_asd" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_asd.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_pin_widget_active" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_pin_widget_active.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_ring_camera_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_camera_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_autoexposure_spotmetering" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_autoexposure_spotmetering.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_timer_minus" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_timer_minus.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_pet" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_pet.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_ring_picsphere_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_picsphere_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_pin_widget_inactive" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_pin_widget_inactive.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_saturation" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_saturation.png" qualifiers="xhdpi-v4" type="drawable"/><file name="cling" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/cling.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_dish" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_dish.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_videofr_30" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_videofr_30.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_iso_1600" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_iso_1600.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_settings" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_settings.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_shutter_stop_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_shutter_stop_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_gps" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_gps.png" qualifiers="xhdpi-v4" type="drawable"/><file name="seek_thumb_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/seek_thumb_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_videofr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_videofr.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_burst" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_burst.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_beach" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_beach.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_softskin" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_softskin.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_burst_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_burst_off.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_candlelight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_candlelight.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_autoexposure_centerweighted" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_autoexposure_centerweighted.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_cling_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_cling_pressed.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_baby" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_baby.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_hdr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_hdr.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_backlightportrait" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_backlightportrait.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_steadyphoto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_steadyphoto.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_timer_voice" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_timer_voice.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_retouch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_retouch.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_hdr_aebracket" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_hdr_aebracket.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_settings_widgets" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_settings_widgets.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_ring_switchcam_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_switchcam_hover.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_ring_pano_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_pano_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_sketch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_sketch.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_wb_incandescent" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_wb_incandescent.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_ring_video_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_video_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="hand" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/hand.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_ar" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_ar.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_auto.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_autoexposure_frameaverage" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_autoexposure_frameaverage.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_neon" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_neon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_ring_video_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_video_hover.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_timer" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_timer.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_highsensitivity" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_highsensitivity.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_flash_on" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_flash_on.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_party" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_party.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_autoexposure" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_autoexposure.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_wb_cloudy_daylight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_wb_cloudy_daylight.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_settings_rulethirds" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_settings_rulethirds.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_whiteboard" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_whiteboard.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_iso_hjr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_iso_hjr.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_placeholder" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_placeholder.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_aqua" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_aqua.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_iso" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_iso.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_sports" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_sports.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_gps_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_gps_off.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_iso_100" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_iso_100.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_iso_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_iso_auto.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_shutterspeed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_shutterspeed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_cling_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_cling_normal.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_save" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_save.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_flash_torch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_flash_torch.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_flash_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_flash_off.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_shutter_photo_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_shutter_photo_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_dark" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_dark.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_sepia" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_sepia.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_skintone" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_skintone.png" qualifiers="xhdpi-v4" type="drawable"/><file name="seek_thumb_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/seek_thumb_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_shutter_photo_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_shutter_photo_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_none" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_none.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_shutter_stop_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_shutter_stop_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_enhancing" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_enhancing.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_hdr_on" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_hdr_on.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_videofr_120" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_videofr_120.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_timer_plus" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_timer_plus.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_mono" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_mono.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_landscape" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_landscape.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_wb_fluorescent" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_wb_fluorescent.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_wb_daylight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_wb_daylight.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_sharpness" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_sharpness.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_pin_widget_inactive_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_pin_widget_inactive_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_burst_inf" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_burst_inf.png" qualifiers="xhdpi-v4" type="drawable"/><file name="hud_exposure_ring" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/hud_exposure_ring.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_backlight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_backlight.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_theatre" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_theatre.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_flowers" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_flowers.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_sweepstitch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_sweepstitch.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_shutter_video_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_shutter_video_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_ring_switchcam_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_switchcam_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_iso_200" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_iso_200.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_antimotionblur" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_antimotionblur.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_nightportrait" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_nightportrait.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_gps_on" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_gps_on.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_ring_picsphere_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_picsphere_hover.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_recording_pin" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_recording_pin.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_emboss" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_emboss.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_ring_pano_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_pano_hover.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_hdr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_hdr.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_picsphere_marker" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_picsphere_marker.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_negative" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_negative.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_shutter_video_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_shutter_video_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_picsphere_viewfinder" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_picsphere_viewfinder.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_snow" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_snow.png" qualifiers="xhdpi-v4" type="drawable"/><file name="hud_focus_ring_fail" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/hud_focus_ring_fail.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_fireworks" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_fireworks.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_videofr_60" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_videofr_60.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_handheld" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_handheld.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_iso_400" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_iso_400.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_wb_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_wb_auto.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_settings_exposurering" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_settings_exposurering.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_effect_posterize" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_posterize.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_widget_exposure" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_exposure.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gallery" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_gallery.png" qualifiers="xhdpi-v4" type="drawable"/><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-pt-rPT/arrays.xml" qualifiers="pt-rPT"><string-array name="widget_whitebalance_hints">
+        <item>Automático</item>
+        <item>Nublado</item>
+        <item>Incandescente</item>
+        <item>Fluorescente</item>
+        <item>Luz do sol</item>
+        <item>Luz do sol nublada</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Inativo</item>
+        <item>Preto e Branco</item>
+        <item>Negativo</item>
+        <item>Solarização</item>
+        <item>Sépia</item>
+        <item>Posterização</item>
+        <item>Quadro negro</item>
+        <item>Quadro branco</item>
+        <item>Aqua</item>
+        <item>Realçar</item>
+        <item>Esboço</item>
+        <item>Neon</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Auto</item>
+        <item>Inativo</item>
+        <item>Ativo</item>
+        <item>Tocha</item>
+        <item>Redução de olhos vermelhos</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Automático</item>
+        <item>Redução de desfoque</item>
+        <item>Realidade Aumentada</item>
+        <item>Melhor foto</item>
+        <item>Bebé</item>
+        <item>Luz de fundo</item>
+        <item>Luz de fundo retrato</item>
+        <item>Código de barras</item>
+        <item>Praia</item>
+        <item>Luz de velas</item>
+        <item>Escuro</item>
+        <item>Prato</item>
+        <item>Documento</item>
+        <item>Fogo de artifício</item>
+        <item>Flores</item>
+        <item>Crepúsculo</item>
+        <item>HDR</item>
+        <item>Alta sensibilidade</item>
+        <item>Paisagem</item>
+        <item>Noite</item>
+        <item>Noite retrato</item>
+        <item>Noite retrato</item>
+        <item>Festa</item>
+        <item>Animal de estimação</item>
+        <item>Retrato</item>
+        <item>Neve</item>
+        <item>Pele</item>
+        <item>Desporto</item>
+        <item>Holofote</item>
+        <item>Foto estável</item>
+        <item>Pôr do sol</item>
+        <item>Costura</item>
+        <item>Teatro</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>ok cid, tira uma foto</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Média de frame</item>
+        <item>Ponderado ao centro</item>
+        <item>Medição pontual</item>
+    </string-array></file><file name="ic_picsphere_undo" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_picsphere_undo.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_burst_10" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_burst_10.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_flash_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_flash_auto.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_barcode" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_barcode.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_videofr_90" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_videofr_90.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_iso_800" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_iso_800.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_cling_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_cling_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_sunset" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_sunset.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_blackboard" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_blackboard.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_spotlight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_spotlight.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_hdr_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_hdr_off.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_flash" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_flash.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="hud_focus_ring_success" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/hud_focus_ring_success.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_portrait" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_portrait.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_solarize" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_solarize.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_contrast" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_contrast.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_settings_resolution" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_settings_resolution.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_ring_camera_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_ring_camera_hover.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_burst_5" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_burst_5.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_wb_cloudy" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_wb_cloudy.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_document" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_document.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_burst_15" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_burst_15.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_night" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_night.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_flash_redeye" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_flash_redeye.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_asd" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_asd.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_pin_widget_active" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_pin_widget_active.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_ring_camera_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_ring_camera_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_autoexposure_spotmetering" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_autoexposure_spotmetering.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_timer_minus" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_timer_minus.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_pet" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_pet.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_ring_picsphere_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_ring_picsphere_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_pin_widget_inactive" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_pin_widget_inactive.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_saturation" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_saturation.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="cling" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/cling.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_dish" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_dish.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_videofr_30" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_videofr_30.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_iso_1600" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_iso_1600.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_settings" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_settings.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_shutter_stop_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_shutter_stop_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_gps" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_gps.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_videofr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_videofr.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_burst" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_burst.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_beach" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_beach.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_softskin" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_softskin.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_burst_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_burst_off.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_candlelight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_candlelight.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_autoexposure_centerweighted" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_autoexposure_centerweighted.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_baby" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_baby.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_hdr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_hdr.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_backlightportrait" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_backlightportrait.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_steadyphoto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_steadyphoto.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_timer_voice" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_timer_voice.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_hdr_aebracket" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_hdr_aebracket.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_settings_widgets" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_settings_widgets.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_ring_switchcam_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_ring_switchcam_hover.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_ring_pano_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_ring_pano_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_sketch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_sketch.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_wb_incandescent" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_wb_incandescent.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_ring_video_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_ring_video_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="hand" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/hand.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_ar" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_ar.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="set" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/set.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_auto.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_autoexposure_frameaverage" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_autoexposure_frameaverage.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_neon" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_neon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_ring_video_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_ring_video_hover.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_timer" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_timer.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_highsensitivity" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_highsensitivity.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_flash_on" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_flash_on.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_party" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_party.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_autoexposure" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_autoexposure.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_wb_cloudy_daylight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_wb_cloudy_daylight.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_settings_rulethirds" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_settings_rulethirds.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_whiteboard" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_whiteboard.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_iso_hjr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_iso_hjr.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_placeholder" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_placeholder.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_aqua" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_aqua.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_iso" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_iso.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_sports" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_sports.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_gps_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_gps_off.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_iso_100" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_iso_100.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_iso_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_iso_auto.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_shutterspeed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_shutterspeed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_save" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_save.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_flash_torch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_flash_torch.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_flash_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_flash_off.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_shutter_photo_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_shutter_photo_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_dark" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_dark.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_sepia" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_sepia.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_skintone" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_skintone.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_shutter_photo_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_shutter_photo_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_none" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_none.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_shutter_stop_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_shutter_stop_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_enhancing" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_enhancing.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_hdr_on" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_hdr_on.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_videofr_120" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_videofr_120.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_timer_plus" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_timer_plus.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_mono" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_mono.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_landscape" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_landscape.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_wb_fluorescent" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_wb_fluorescent.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_wb_daylight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_wb_daylight.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_sharpness" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_sharpness.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_pin_widget_inactive_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_pin_widget_inactive_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_burst_inf" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_burst_inf.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="hud_exposure_ring" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/hud_exposure_ring.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_backlight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_backlight.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_theatre" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_theatre.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_flowers" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_flowers.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_sweepstitch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_sweepstitch.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_shutter_video_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_shutter_video_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_cling_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_cling_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_ring_switchcam_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_ring_switchcam_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_iso_200" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_iso_200.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_antimotionblur" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_antimotionblur.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_nightportrait" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_nightportrait.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_gps_on" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_gps_on.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_ring_picsphere_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_ring_picsphere_hover.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="pic" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/pic.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_recording_pin" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_recording_pin.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_emboss" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_emboss.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_ring_pano_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_ring_pano_hover.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_hdr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_hdr.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_picsphere_marker" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_picsphere_marker.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_negative" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_negative.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="btn_shutter_video_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/btn_shutter_video_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_picsphere_viewfinder" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_picsphere_viewfinder.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_snow" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_snow.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="hud_focus_ring_fail" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/hud_focus_ring_fail.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_fireworks" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_fireworks.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_videofr_60" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_videofr_60.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_scenemode_handheld" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_scenemode_handheld.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_iso_400" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_iso_400.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_wb_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_wb_auto.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_settings_exposurering" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_settings_exposurering.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_effect_posterize" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_effect_posterize.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_widget_exposure" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xxhdpi/ic_widget_exposure.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="widget_info" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/xml/widget_info.xml" qualifiers="" type="xml"/><file name="picsphere_sky_up" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_up.jpg" qualifiers="nodpi-v4" type="drawable"/><file name="picsphere_sky_bk" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_bk.jpg" qualifiers="nodpi-v4" type="drawable"/><file name="picsphere_sky_lt" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_lt.jpg" qualifiers="nodpi-v4" type="drawable"/><file name="picsphere_sky_dn" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_dn.jpg" qualifiers="nodpi-v4" type="drawable"/><file name="picsphere_sky_rt" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_rt.jpg" qualifiers="nodpi-v4" type="drawable"/><file name="picsphere_sky_fr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-nodpi/picsphere_sky_fr.jpg" qualifiers="nodpi-v4" type="drawable"/><file name="ic_picsphere_undo" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_picsphere_undo.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_burst_10" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_burst_10.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_flash_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_flash_auto.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_barcode" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_barcode.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_videofr_90" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_videofr_90.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_iso_800" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_iso_800.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_sunset" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_sunset.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_blackboard" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_blackboard.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_spotlight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_spotlight.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_hdr_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_hdr_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_flash" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_flash.png" qualifiers="hdpi-v4" type="drawable"/><file name="hud_focus_ring_success" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/hud_focus_ring_success.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_portrait" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_portrait.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_solarize" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_solarize.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_contrast" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_contrast.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_settings_resolution" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_settings_resolution.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_ring_camera_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_ring_camera_hover.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_burst_5" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_burst_5.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_wb_cloudy" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_wb_cloudy.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_document" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_document.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_burst_15" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_burst_15.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_night" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_night.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_flash_redeye" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_flash_redeye.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_asd" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_asd.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_pin_widget_active" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_pin_widget_active.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_ring_camera_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_ring_camera_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_autoexposure_spotmetering" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_autoexposure_spotmetering.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_timer_minus" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_timer_minus.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_pet" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_pet.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_ring_picsphere_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_ring_picsphere_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_pin_widget_inactive" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_pin_widget_inactive.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_saturation" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_saturation.png" qualifiers="hdpi-v4" type="drawable"/><file name="cling" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/cling.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_dish" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_dish.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_videofr_30" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_videofr_30.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_iso_1600" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_iso_1600.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_settings" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_settings.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_shutter_stop_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_shutter_stop_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_gps" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_gps.png" qualifiers="hdpi-v4" type="drawable"/><file name="seek_thumb_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/seek_thumb_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_videofr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_videofr.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_burst" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_burst.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_beach" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_beach.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_softskin" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_softskin.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_burst_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_burst_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_candlelight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_candlelight.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_autoexposure_centerweighted" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_autoexposure_centerweighted.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_cling_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_cling_pressed.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_baby" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_baby.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_hdr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_hdr.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_backlightportrait" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_backlightportrait.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_steadyphoto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_steadyphoto.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_timer_voice" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_timer_voice.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_retouch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_retouch.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_hdr_aebracket" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_hdr_aebracket.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_settings_widgets" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_settings_widgets.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_ring_switchcam_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_ring_switchcam_hover.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_ring_pano_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_ring_pano_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_sketch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_sketch.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_wb_incandescent" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_wb_incandescent.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_ring_video_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_ring_video_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="hand" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/hand.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_ar" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_ar.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_auto.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_autoexposure_frameaverage" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_autoexposure_frameaverage.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_neon" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_neon.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_ring_video_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_ring_video_hover.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_timer" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_timer.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_highsensitivity" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_highsensitivity.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_flash_on" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_flash_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_party" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_party.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_autoexposure" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_autoexposure.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_wb_cloudy_daylight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_wb_cloudy_daylight.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_settings_rulethirds" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_settings_rulethirds.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_whiteboard" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_whiteboard.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_iso_hjr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_iso_hjr.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_placeholder" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_placeholder.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_aqua" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_aqua.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_iso" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_iso.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_sports" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_sports.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_gps_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_gps_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_iso_100" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_iso_100.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_iso_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_iso_auto.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_shutterspeed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_shutterspeed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_cling_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_cling_normal.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_save" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_save.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_flash_torch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_flash_torch.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_flash_off" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_flash_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_shutter_photo_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_shutter_photo_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_dark" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_dark.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_sepia" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_sepia.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_skintone" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_skintone.png" qualifiers="hdpi-v4" type="drawable"/><file name="seek_thumb_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/seek_thumb_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_shutter_photo_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_shutter_photo_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_none" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_none.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_shutter_stop_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_shutter_stop_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_enhancing" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_enhancing.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_hdr_on" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_hdr_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_videofr_120" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_videofr_120.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_timer_plus" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_timer_plus.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_mono" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_mono.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_landscape" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_landscape.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_wb_fluorescent" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_wb_fluorescent.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_wb_daylight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_wb_daylight.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_sharpness" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_sharpness.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_pin_widget_inactive_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_pin_widget_inactive_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_burst_inf" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_burst_inf.png" qualifiers="hdpi-v4" type="drawable"/><file name="hud_exposure_ring" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/hud_exposure_ring.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_backlight" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_backlight.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_theatre" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_theatre.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_flowers" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_flowers.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_sweepstitch" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_sweepstitch.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_shutter_video_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_shutter_video_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_ring_switchcam_normal" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_ring_switchcam_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_iso_200" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_iso_200.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_antimotionblur" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_antimotionblur.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_nightportrait" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_nightportrait.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_gps_on" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_gps_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_ring_picsphere_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_ring_picsphere_hover.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_recording_pin" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_recording_pin.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_emboss" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_emboss.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_ring_pano_hover" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_ring_pano_hover.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_hdr" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_hdr.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_picsphere_marker" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_picsphere_marker.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_negative" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_negative.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_shutter_video_pressed" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/btn_shutter_video_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_picsphere_viewfinder" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_picsphere_viewfinder.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_snow" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_snow.png" qualifiers="hdpi-v4" type="drawable"/><file name="hud_focus_ring_fail" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/hud_focus_ring_fail.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_fireworks" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_fireworks.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_videofr_60" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_videofr_60.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_scenemode_handheld" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_scenemode_handheld.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_iso_400" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_iso_400.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_wb_auto" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_wb_auto.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_settings_exposurering" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_settings_exposurering.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_effect_posterize" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_effect_posterize.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_widget_exposure" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_widget_exposure.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_gallery" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-hdpi/ic_gallery.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fi/arrays.xml" qualifiers="fi"><string-array name="widget_whitebalance_hints">
+        <item>Automaattinen</item>
+        <item>Pilvinen</item>
+        <item>Hehkuva</item>
+        <item>Fluoresoiva</item>
+        <item>Päivänvalo</item>
+        <item>Pilvinen/Päivänvalo</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>ok cid, take a picture</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Automaattinen</item>
+        <item>Pois käytöstä</item>
+        <item>Käytössä</item>
+        <item>Lamppu</item>
+        <item>Punasilmäisyyden poisto</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Automaattinen</item>
+        <item>Liikkeen sumennuksen vähentäminen</item>
+        <item>Lisätty todellisuus</item>
+        <item>Paras otos</item>
+        <item>Vauva</item>
+        <item>Taustavalo</item>
+        <item>Taustavalo/Muotokuva</item>
+        <item>Viivakoodi</item>
+        <item>Ranta</item>
+        <item>Kynttilänvalo</item>
+        <item>Pimeä</item>
+        <item>Tarjoilu</item>
+        <item>Dokumentti</item>
+        <item>Ilotulitus</item>
+        <item>Kukat</item>
+        <item>Hämärä/Käsikuvaus</item>
+        <item>HDR</item>
+        <item>Erittäin herkkä</item>
+        <item>Vaakataso</item>
+        <item>Yö</item>
+        <item>Yö/Muotokuva</item>
+        <item>Yö/Muotokuva</item>
+        <item>Juhla</item>
+        <item>Lemmikki</item>
+        <item>Muotokuva</item>
+        <item>Lumi</item>
+        <item>Pehmeä iho</item>
+        <item>Urheilu</item>
+        <item>Valokeila</item>
+        <item>Vakaa kuva</item>
+        <item>Auringonlasku</item>
+        <item>Puhdistettu yhdistelmä</item>
+        <item>Teatteri</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Pois käytöstä</item>
+        <item>Mustavalkoinen</item>
+        <item>Negatiivi</item>
+        <item>Valotus</item>
+        <item>Seepia</item>
+        <item>Juliste</item>
+        <item>Liitutaulu</item>
+        <item>Valkotaulu</item>
+        <item>Aqua</item>
+        <item>Kohokuva</item>
+        <item>Piirros</item>
+        <item>Neon</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Keskimääräinen kehys</item>
+        <item>Keskelle keskittynyt</item>
+        <item>Pisteeseen kohdistettu</item>
+    </string-array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml" qualifiers="fr"><string-array name="widget_flash_hints">
+        <item>Automatique</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+        <item>Flash</item>
+        <item>Yeux rouges</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Automatique</item>
+        <item>Nuageux</item>
+        <item>Incandescent</item>
+        <item>Fluorescent</item>
+        <item>Lumière du jour</item>
+        <item>Lumière du jour nuageux</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>ouistiti</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>cerise</item>
+        <item>ok cid, prend une photo</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Désactivé</item>
+        <item>Noir \u0026 blanc</item>
+        <item>Negatif</item>
+        <item>Solariser</item>
+        <item>Sépia</item>
+        <item>Postérisé</item>
+        <item>Tableau noir</item>
+        <item>Tableau blanc</item>
+        <item>Eau</item>
+        <item>Embossage</item>
+        <item>Croquis</item>
+        <item>Néon</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Cadre moyen</item>
+        <item>Pondéré au centre</item>
+        <item>Mesure du spot</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Automatique</item>
+        <item>Réduction du flou de mouvement</item>
+        <item>Réalité augmentée</item>
+        <item>Meilleure prise</item>
+        <item>Bébé</item>
+        <item>Rétroéclairé</item>
+        <item>Portrait rétroéclairé</item>
+        <item>Code barre</item>
+        <item>Plage</item>
+        <item>Bougie</item>
+        <item>Foncé</item>
+        <item>Délavé</item>
+        <item>Document</item>
+        <item>Feux d\'artifice</item>
+        <item>Fleurs</item>
+        <item>Crépuscule</item>
+        <item>HDR</item>
+        <item>Haute sensibilité</item>
+        <item>Paysage</item>
+        <item>Nuit</item>
+        <item>Portrait de nuit</item>
+        <item>Portrait de nuit</item>
+        <item>Partie</item>
+        <item>Animal</item>
+        <item>Portrait</item>
+        <item>Neige</item>
+        <item>Peau douce</item>
+        <item>Sports</item>
+        <item>Projecteur</item>
+        <item>Photo stable</item>
+        <item>Coucher de soleil</item>
+        <item>Point de balayage</item>
+        <item>Théâtre</item>
+    </string-array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-es/arrays.xml" qualifiers="es"><string-array name="widget_scenemode_hints">
+        <item>Automático</item>
+        <item>Reducción desenfoque movimiento</item>
+        <item>Realidad aumentada</item>
+        <item>Mejor toma</item>
+        <item>Bebé</item>
+        <item>Contraluz</item>
+        <item>Retrato a contraluz</item>
+        <item>Código de barras</item>
+        <item>Playa</item>
+        <item>Luz de vela</item>
+        <item>Oscuro</item>
+        <item>Reflector</item>
+        <item>Documento</item>
+        <item>Fuegos artificiales</item>
+        <item>Flores</item>
+        <item>Crepúsculo</item>
+        <item>HDR</item>
+        <item>Alta sensibilidad</item>
+        <item>Paisaje</item>
+        <item>Noche</item>
+        <item>Retrato nocturno</item>
+        <item>Interior nocturno</item>
+        <item>Fiesta</item>
+        <item>Mascota</item>
+        <item>Retrato</item>
+        <item>Nieve</item>
+        <item>Suavizado</item>
+        <item>Deporte</item>
+        <item>Destacado</item>
+        <item>Estable</item>
+        <item>Atarceder</item>
+        <item>Superposición</item>
+        <item>Teatro</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Matricial</item>
+        <item>Ponderada al centro</item>
+        <item>Puntual</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Automático</item>
+        <item>Nublado</item>
+        <item>Incandescente</item>
+        <item>Fluorescente</item>
+        <item>Luz natural</item>
+        <item>Parc. nublado</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Automático</item>
+        <item>Apagado</item>
+        <item>Encendido</item>
+        <item>Linterna</item>
+        <item>Ojos rojos</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>patata</item>
+        <item>bien cid, toma una foto</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Ninguno</item>
+        <item>Blanco y negro</item>
+        <item>Negativo</item>
+        <item>Solarizar</item>
+        <item>Sepia</item>
+        <item>Posterizar</item>
+        <item>Fondo oscuro</item>
+        <item>Fondo claro</item>
+        <item>Agua</item>
+        <item>Realzar</item>
+        <item>Dibujo</item>
+        <item>Neón</item>
+    </string-array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-hu/arrays.xml" qualifiers="hu"><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>ok cid, take a picture</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Automatikus</item>
+        <item>Letiltva</item>
+        <item>Engedélyezve</item>
+        <item>Vaku</item>
+        <item>Vörösszem csökkentés</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Kiértékelő</item>
+        <item>Középre súlyozott</item>
+        <item>Spotmérés</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Letiltva</item>
+        <item>Fekete &amp; Fehér</item>
+        <item>Negatív</item>
+        <item>Szolarizált</item>
+        <item>Szépia</item>
+        <item>Poszterizált</item>
+        <item>Feketetábla</item>
+        <item>Fehértábla</item>
+        <item>Víz</item>
+        <item>Dombormű</item>
+        <item>Vázlat</item>
+        <item>Neon</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Automatikus</item>
+        <item>Bemozdulás csökkentés</item>
+        <item>Kiterjesztett valóság</item>
+        <item>Legjobb kép</item>
+        <item>Gyerek</item>
+        <item>Háttérvilágítás</item>
+        <item>Háttérvilágítású portré</item>
+        <item>Vonalkód</item>
+        <item>Strand</item>
+        <item>Gyertyafény</item>
+        <item>Sötét</item>
+        <item>Étel</item>
+        <item>Dokumentum</item>
+        <item>Tűzijáték</item>
+        <item>Virágok</item>
+        <item>Kézben tartott szürkület</item>
+        <item>HDR</item>
+        <item>Nagy érzékenység</item>
+        <item>Tájkép</item>
+        <item>Éjszakai</item>
+        <item>Éjszakai portré</item>
+        <item>Éjszakai beltéri portré</item>
+        <item>Buli</item>
+        <item>Háziállat</item>
+        <item>Portré</item>
+        <item>Hó</item>
+        <item>Lágy bőr</item>
+        <item>Sport</item>
+        <item>Reflektorfény</item>
+        <item>Állókép</item>
+        <item>Napnyugta</item>
+        <item>Varrott</item>
+        <item>Színház</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Automatikus</item>
+        <item>Felhős</item>
+        <item>Izzólámpa</item>
+        <item>Fénycső</item>
+        <item>Napfény</item>
+        <item>Felhős napfény</item>
+    </string-array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-nl/arrays.xml" qualifiers="nl"><string-array name="widget_whitebalance_hints">
+        <item>Automatisch</item>
+        <item>Bewolkt</item>
+        <item>Gloeilamp</item>
+        <item>TL-lamp</item>
+        <item>Daglicht</item>
+        <item>Daglicht (bewolkt)</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>ok cid, take a picture</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Automatisch</item>
+        <item>Uitgeschakeld</item>
+        <item>Ingeschakeld</item>
+        <item>Zaklamp</item>
+        <item>Rode ogen verminderen</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Meervelds</item>
+        <item>Centrumgericht</item>
+        <item>Spot</item>
+    </string-array><string-array name="widget_effects_hints">
+        <item>Uitgeschakeld</item>
+        <item>Zwart-wit</item>
+        <item>Negatief</item>
+        <item>Solariseren</item>
+        <item>Sepia</item>
+        <item>Posteriseren</item>
+        <item>Schoolbord</item>
+        <item>Whiteboard</item>
+        <item>Aqua</item>
+        <item>Reliëf</item>
+        <item>Schets</item>
+        <item>Neon</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Automatisch</item>
+        <item>Bewegingsonscherpte verwijderen</item>
+        <item>Toegevoegde realiteit</item>
+        <item>Beste opname</item>
+        <item>Baby</item>
+        <item>Achtergrondlicht</item>
+        <item>Portret (achtergrondlicht)</item>
+        <item>Streepjescode</item>
+        <item>Strand</item>
+        <item>Kaarslicht</item>
+        <item>Donker</item>
+        <item>Gerecht</item>
+        <item>Document</item>
+        <item>Vuurwerk</item>
+        <item>Bloemen</item>
+        <item>Schemering</item>
+        <item>HDR</item>
+        <item>Hoge gevoeligheid</item>
+        <item>Landschap</item>
+        <item>Nacht</item>
+        <item>Nachtportret</item>
+        <item>Nachtportret</item>
+        <item>Feest</item>
+        <item>Huisdier</item>
+        <item>Portret</item>
+        <item>Sneeuw</item>
+        <item>Zachte huid</item>
+        <item>Sport</item>
+        <item>Schijnwerper</item>
+        <item>Stabiele foto</item>
+        <item>Zonsondergang</item>
+        <item>Draaipanorama</item>
+        <item>Theater</item>
+    </string-array></file><file path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-de/arrays.xml" qualifiers="de"><string-array name="widget_effects_hints">
+        <item>Aus</item>
+        <item>Schwarz &amp; Weiß</item>
+        <item>Negativ</item>
+        <item>Solarisiert</item>
+        <item>Sepia</item>
+        <item>Posterisiert</item>
+        <item>Kreidetafel</item>
+        <item>Whiteboard</item>
+        <item>Aqua</item>
+        <item>Prägung</item>
+        <item>Skizze</item>
+        <item>Neon</item>
+    </string-array><string-array name="widget_scenemode_hints">
+        <item>Automatisch</item>
+        <item>Bewegungsunschärfe-Reduktion</item>
+        <item>Erweiterte Realität</item>
+        <item>Beste Aufnahme</item>
+        <item>Baby</item>
+        <item>Hintergrundlicht</item>
+        <item>Gegenlicht-Porträt</item>
+        <item>Barcode</item>
+        <item>Strand</item>
+        <item>Kerzenschein</item>
+        <item>Dunkelheit</item>
+        <item>Speisen</item>
+        <item>Dokumente</item>
+        <item>Feuerwerk</item>
+        <item>Blumen</item>
+        <item>Dämmerung</item>
+        <item>HDR</item>
+        <item>Hohe Empfindlichkeit</item>
+        <item>Landschaft</item>
+        <item>Nacht</item>
+        <item>Nacht-Porträt</item>
+        <item>Nacht-Porträt</item>
+        <item>Party</item>
+        <item>Tier</item>
+        <item>Porträt</item>
+        <item>Schnee</item>
+        <item>Weiche Haut</item>
+        <item>Sport</item>
+        <item>Scheinwerfer</item>
+        <item>Stationäres Foto</item>
+        <item>Sonnenuntergang</item>
+        <item>Schwenkpanorama</item>
+        <item>Theater</item>
+    </string-array><string-array name="widget_autoexposure_hints">
+        <item>Mehrfeld</item>
+        <item>Mittenbetont</item>
+        <item>Spot-Messung</item>
+    </string-array><string-array name="widget_flash_hints">
+        <item>Automatisch</item>
+        <item>Aus</item>
+        <item>An</item>
+        <item>Leuchte</item>
+        <item>Rote Augen-Reduzierung</item>
+    </string-array><string-array name="widget_whitebalance_hints">
+        <item>Automatisch</item>
+        <item>Bewölkt</item>
+        <item>Glühlampe</item>
+        <item>Leuchtstofflampe</item>
+        <item>Tageslicht</item>
+        <item>Tageslicht bewölkt</item>
+    </string-array><string-array name="transformer_timer_voice_words">
+        <item>Cid</item>
+        <item>Civ</item>
+        <item>Whiskey</item>
+        <item>Cheese</item>
+    </string-array></file><file name="snd_capture" path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/raw/snd_capture.mp3" qualifiers="" type="raw"/></source><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/generated/res/rs/debug"/><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable><declare-styleable name="BigImageView"><attr format="enum" name="initScaleType"><enum name="centerInside" value="1"/><enum name="centerCrop" value="2"/><enum name="auto" value="3"/></attr><attr format="boolean" name="optimizeDisplay"/></declare-styleable><declare-styleable name="SubsamplingScaleImageView"><attr format="reference" name="src"/><attr format="string" name="assetName"/><attr format="boolean" name="panEnabled"/><attr format="boolean" name="zoomEnabled"/><attr format="boolean" name="quickScaleEnabled"/><attr format="color" name="tileBackgroundColor"/></declare-styleable><declare-styleable name="ShowcaseView"><attr format="color|reference" name="sv_backgroundColor"/><attr format="color|reference" name="sv_detailTextColor"/><attr format="color|reference" name="sv_titleTextColor"/><attr format="color|reference" name="sv_buttonBackgroundColor"/><attr format="color|reference" name="sv_buttonForegroundColor"/><attr format="string|reference" name="sv_buttonText"/></declare-styleable><declare-styleable name="CustomTheme"><attr format="reference" name="showcaseViewStyle"/></declare-styleable></configuration></mergedItems></merger>
