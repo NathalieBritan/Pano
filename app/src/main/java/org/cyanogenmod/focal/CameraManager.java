@@ -456,11 +456,16 @@ public class CameraManager {
     }
 
     private void safeStartPreview() {
-        if (!mIsPreviewStarted && mCamera != null) {
-            Log.d(TAG, "safeStartPreview");
-            mCamera.startPreview();
-            mIsPreviewStarted = true;
+        try{
+            if (!mIsPreviewStarted && mCamera != null) {
+                Log.d(TAG, "safeStartPreview");
+                mCamera.startPreview();
+                mIsPreviewStarted = true;
+            }
+        }catch (Exception e){
+
         }
+
     }
 
     private void safeStopPreview() {

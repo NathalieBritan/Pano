@@ -63,7 +63,7 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
     // whether or not to enable profiling
     private final static boolean DEBUG_PROFILE = true;
 
-    private static int mCameraMode = CAMERA_MODE_PICSPHERE;
+    private static int mCameraMode = CAMERA_MODE_PHOTO;
 
     private CameraManager mCamManager;
     private SnapshotManager mSnapshotManager;
@@ -81,6 +81,13 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
     private int mOrientationCompensation = 0;
 
     private SideBar mSideBar;
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mCamManager.releaseCamera();
+        mCamManager.forceCloseCamera();
+    }
+
     private WidgetRenderer mWidgetRenderer;
     private FocusHudRing mFocusHudRing;
     private ExposureHudRing mExposureHudRing;
@@ -223,7 +230,7 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                setCameraMode(CAMERA_MODE_PICSPHERE);
+                setCameraMode(CAMERA_MODE_PANO);
             }
         }, 500);
 
@@ -290,37 +297,37 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
     @Override
     protected void onPause() {
         // Pause the camera preview
-        mPaused = true;
-
-        if (mCamManager != null) {
-            mCamManager.pause();
-        }
-
-        if (mSnapshotManager != null) {
-            mSnapshotManager.onPause();
-        }
-
-        if (mOrientationListener != null) {
-            mOrientationListener.disable();
-        }
-
-        if (mPicSphereManager != null) {
-            mPicSphereManager.onPause();
-        }
-
-        if (SoftwareHdrCapture.isServiceBound()) {
-            try {
-                unbindService(SoftwareHdrCapture.getServiceConnection());
-            } catch (IllegalArgumentException e) {
-                // Do nothing
-            }
-        }
-
-        // Reset capture transformers on pause, if we are in
-        // PicSphere mode
-        if (mCameraMode == CAMERA_MODE_PICSPHERE) {
-            mCaptureTransformer = null;
-        }
+//        mPaused = true;
+//
+//        if (mCamManager != null) {
+//            mCamManager.pause();
+//        }
+//
+//        if (mSnapshotManager != null) {
+//            mSnapshotManager.onPause();
+//        }
+//
+//        if (mOrientationListener != null) {
+//            mOrientationListener.disable();
+//        }
+//
+//        if (mPicSphereManager != null) {
+//            mPicSphereManager.onPause();
+//        }
+//
+//        if (SoftwareHdrCapture.isServiceBound()) {
+//            try {
+//                unbindService(SoftwareHdrCapture.getServiceConnection());
+//            } catch (IllegalArgumentException e) {
+//                // Do nothing
+//            }
+//        }
+//
+//        // Reset capture transformers on pause, if we are in
+//        // PicSphere mode
+//        if (mCameraMode == CAMERA_MODE_PICSPHERE) {
+//            mCaptureTransformer = null;
+//        }
 
         super.onPause();
     }
@@ -335,26 +342,26 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
     }*/
     @Override
     protected void onResume() {
-        // Restore the camera preview
-        mPaused = false;
-
-        if (mCamManager != null) {
-            mCamManager.resume();
-        }
-
         super.onResume();
+        // Restore the camera preview
+//        mPaused = false;
+//
+//        if (mCamManager != null) {
+//            mCamManager.resume();
+//        }
+//
+//        if (mSnapshotManager != null) {
+//            mSnapshotManager.onResume();
+//        }
+//
+//        if (mPicSphereManager != null) {
+//            mPicSphereManager.onResume();
+//        }
+//
+//        mOrientationListener.enable();
+//
+//        mReviewDrawer.close();
 
-        if (mSnapshotManager != null) {
-            mSnapshotManager.onResume();
-        }
-
-        if (mPicSphereManager != null) {
-            mPicSphereManager.onResume();
-        }
-
-        mOrientationListener.enable();
-
-        mReviewDrawer.close();
     }
 
     @Override
@@ -992,9 +999,9 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
 
     @Override
     public void onCapturePanorama(Boolean status, String panoramaPath) {
-        finish();
         startActivity(new Intent(this,ImageAct.class).putExtra("pic",panoramaPath));
     }
+
 
     /**
      * Listener that is called when the preview pauses or resumes
