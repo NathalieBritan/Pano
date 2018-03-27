@@ -23,11 +23,12 @@ import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import org.cyanogenmod.focal.BitmapFilter;
+
 import org.cyanogenmod.focal.CameraActivity;
-import org.cyanogenmod.focal.CameraManager;
-import org.cyanogenmod.focal.SettingsStorage;
-import org.cyanogenmod.focal.Util;
+import org.cyanogenmod.focal.common.helpers.BitmapFilter;
+import org.cyanogenmod.focal.managers.CameraManager;
+import org.cyanogenmod.focal.common.helpers.SettingsStorage;
+import org.cyanogenmod.focal.common.Util;
 import org.cyanogenmod.focal.ui.CenteredSeekBar;
 import org.cyanogenmod.focal.ui.WidgetRenderer;
 

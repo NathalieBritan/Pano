@@ -10,7 +10,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.ScrollView;
 
 import org.cyanogenmod.focal.CameraActivity;
-import org.cyanogenmod.focal.CameraCapabilities;
+import org.cyanogenmod.focal.common.CameraCapabilities;
 
 import fr.xplod.focal.R;
 
@@ -43,7 +43,7 @@ public class SideBar extends ScrollView {
      */
     private void initialize() {
         this.setBackgroundColor(getResources().getColor(R.color.widget_background));
-        mIsOpen = true;
+        mIsOpen = false;
     }
 
 

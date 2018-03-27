@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 import android.widget.NumberPicker;
 
 import org.cyanogenmod.focal.CameraActivity;
-import org.cyanogenmod.focal.CameraCapabilities;
-import org.cyanogenmod.focal.CameraManager;
-import org.cyanogenmod.focal.SettingsStorage;
-import org.cyanogenmod.focal.SnapshotManager;
+import org.cyanogenmod.focal.common.CameraCapabilities;
+import org.cyanogenmod.focal.managers.CameraManager;
+import org.cyanogenmod.focal.common.helpers.SettingsStorage;
+import org.cyanogenmod.focal.managers.SnapshotManager;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

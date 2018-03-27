@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:2:1-84:12
+ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:2:1-82:12
 	package
 		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:3:5-29
 		INJECTED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml
@@ -93,12 +93,12 @@ uses-feature#android.hardware.camera.autofocus
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:18:5-70
 	android:name
 		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:18:19-67
-android:uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:20:5-83
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:20:5-75
 	android:name
-		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:20:30-80
+		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:20:22-72
 application
-ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:22:5-82:19
+ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:22:5-80:19
 MERGED from [com.android.support:support-v4:25.3.0] /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.0] /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.0] /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/AndroidManifest.xml:29:5-20
@@ -148,10 +148,10 @@ service#org.cyanogenmod.focal.picsphere.PicSphereRenderingService
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:29:9-93
 	android:name
 		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:29:18-90
-service#org.cyanogenmod.focal.feats.SoftwareHdrRenderingService
-ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:30:9-91
+service#org.cyanogenmod.focal.common.feats.SoftwareHdrRenderingService
+ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:30:9-98
 	android:name
-		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:30:18-88
+		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:30:18-95
 activity#org.cyanogenmod.focal.ImageAct
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:32:9-140
 	android:theme
@@ -202,30 +202,30 @@ ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/sr
 		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:57:17-59
 	android:name
 		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:56:17-59
-receiver#org.cyanogenmod.focal.CameraButtonIntentReceiver
+receiver#org.cyanogenmod.focal.common.CameraButtonIntentReceiver
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:60:9-64:20
 	android:name
-		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:60:19-82
+		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:60:19-89
 intent-filter#android.intent.action.CAMERA_BUTTON
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:61:13-63:29
 action#android.intent.action.CAMERA_BUTTON
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:62:17-78
 	android:name
 		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:62:25-75
-receiver#org.cyanogenmod.focal.DisableCameraReceiver
+receiver#org.cyanogenmod.focal.common.helpers.DisableCameraReceiver
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:65:9-69:20
 	android:name
-		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:65:19-77
+		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:65:19-92
 intent-filter#android.intent.action.BOOT_COMPLETED
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:66:13-68:29
 action#android.intent.action.BOOT_COMPLETED
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:67:17-79
 	android:name
 		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:67:25-76
-receiver#org.cyanogenmod.focal.WidgetProvider
+receiver#org.cyanogenmod.focal.common.helpers.WidgetProvider
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:70:9-78:20
 	android:name
-		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:70:19-70
+		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:70:19-85
 intent-filter#android.appwidget.action.APPWIDGET_UPDATE
 ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:71:13-73:29
 action#android.appwidget.action.APPWIDGET_UPDATE
@@ -238,10 +238,6 @@ ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/sr
 		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:77:17-52
 	android:name
 		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:76:17-58
-activity#org.cyanogenmod.focal.TestActivity
-ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:80:9-81:20
-	android:name
-		ADDED from /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/AndroidManifest.xml:80:19-68
 meta-data#android.support.VERSION
 ADDED from [com.android.support:support-v4:25.3.0] /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.0] /Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/AndroidManifest.xml:25:5-27:34

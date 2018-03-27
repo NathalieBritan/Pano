@@ -20,17 +20,14 @@
 package org.cyanogenmod.focal.picsphere;
 
 import android.content.Context;
-import android.database.Cursor;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
-import android.os.Environment;
-import android.provider.MediaStore;
 import android.util.Log;
 
-import org.cyanogenmod.focal.PopenHelper;
-import org.cyanogenmod.focal.SnapshotManager;
-import org.cyanogenmod.focal.Util;
-import org.cyanogenmod.focal.XMPHelper;
+import org.cyanogenmod.focal.common.helpers.PopenHelper;
+import org.cyanogenmod.focal.managers.SnapshotManager;
+import org.cyanogenmod.focal.common.Util;
+import org.cyanogenmod.focal.common.helpers.XMPHelper;
 
 import java.io.File;
 import java.io.IOException;

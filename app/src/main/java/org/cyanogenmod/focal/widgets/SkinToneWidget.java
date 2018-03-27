@@ -4,8 +4,8 @@ import android.content.Context;
 import android.hardware.Camera;
 import android.view.View;
 
-import org.cyanogenmod.focal.CameraManager;
-import org.cyanogenmod.focal.SettingsStorage;
+import org.cyanogenmod.focal.managers.CameraManager;
+import org.cyanogenmod.focal.common.helpers.SettingsStorage;
 
 import fr.xplod.focal.R;
 

@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 import org.cyanogenmod.focal.CameraActivity;
-import org.cyanogenmod.focal.CameraManager;
-import org.cyanogenmod.focal.SettingsStorage;
+import org.cyanogenmod.focal.managers.CameraManager;
+import org.cyanogenmod.focal.common.helpers.SettingsStorage;
 
 import java.util.Arrays;
 import java.util.HashMap;

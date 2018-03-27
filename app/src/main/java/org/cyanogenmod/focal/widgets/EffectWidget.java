@@ -3,7 +3,7 @@ package org.cyanogenmod.focal.widgets;
 import android.content.Context;
 import android.os.Build;
 
-import org.cyanogenmod.focal.CameraManager;
+import org.cyanogenmod.focal.managers.CameraManager;
 
 import fr.xplod.focal.R;
 

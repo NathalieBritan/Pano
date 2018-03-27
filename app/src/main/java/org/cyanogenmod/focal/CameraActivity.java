@@ -29,8 +29,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.cyanogenmod.focal.appinterface.OnPanoramaCapture;
-import org.cyanogenmod.focal.feats.CaptureTransformer;
-import org.cyanogenmod.focal.feats.SoftwareHdrCapture;
+import org.cyanogenmod.focal.common.feats.CaptureTransformer;
+import org.cyanogenmod.focal.common.Profiler;
+import org.cyanogenmod.focal.common.helpers.SettingsStorage;
+import org.cyanogenmod.focal.common.Util;
+import org.cyanogenmod.focal.managers.CameraManager;
+import org.cyanogenmod.focal.managers.FocusManager;
+import org.cyanogenmod.focal.managers.SnapshotManager;
+import org.cyanogenmod.focal.managers.SoundManager;
 import org.cyanogenmod.focal.pano.MosaicProxy;
 import org.cyanogenmod.focal.picsphere.PicSphereCaptureTransformer;
 import org.cyanogenmod.focal.picsphere.PicSphereManager;
@@ -224,7 +230,6 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
             @Override
             public void run() {
                 try {
-                    mSideBar.slideClose();
                     mWidgetRenderer.notifySidebarSlideClose();
                     mReviewDrawer.close();
                 } catch (Exception e) {
@@ -687,7 +692,7 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
                     @Override
                     public void run() {
                         if (!mCancelSideBarClose) {
-                            mSideBar.slideClose();
+                            //mSideBar.slideClose();
                             mWidgetRenderer.notifySidebarSlideClose();
                         }
                     }
@@ -968,6 +973,7 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
     public void onShowcaseViewHide(ShowcaseView showcaseView) {
         switch (mShowcaseIndex) {
             case SHOWCASE_INDEX_WELCOME_1:
+                mSideBar.slideClose();
                 mShowcaseIndex = SHOWCASE_INDEX_WELCOME_2;
 
                 Point size = new Point();
@@ -978,7 +984,7 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
                 mShowcaseView = ShowcaseView.insertShowcaseView(size.x / 2,
                         size.y - Util.dpToPx(this, 16), this,
                         getString(R.string.showcase_welcome_2_title),
-                        getString(R.string.showcase_welcome_2_body), co);
+                        getString(R.string.showcase_panorama_body), co);
 
                 // animate gesture
                 mShowcaseView.animateGesture(size.x / 2,
@@ -1436,7 +1442,6 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
                         mCancelSwipe = true;
                         mCancelSideBarClose = true;
                     }
-
                     return true;
                 }
             } /*else if (Math.abs(e1.getY() - e2.getY()) > DRAG_MIN_DISTANCE) {

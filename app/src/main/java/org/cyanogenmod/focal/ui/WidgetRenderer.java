@@ -7,7 +7,7 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 
-import org.cyanogenmod.focal.Util;
+import org.cyanogenmod.focal.common.Util;
 import org.cyanogenmod.focal.widgets.WidgetBase;
 
 import java.util.ArrayList;

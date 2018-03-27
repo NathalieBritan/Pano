@@ -5,8 +5,8 @@ import android.hardware.Camera;
 import android.util.Log;
 import android.widget.SeekBar;
 
-import org.cyanogenmod.focal.CameraManager;
-import org.cyanogenmod.focal.SettingsStorage;
+import org.cyanogenmod.focal.managers.CameraManager;
+import org.cyanogenmod.focal.common.helpers.SettingsStorage;
 
 import fr.xplod.focal.R;
 

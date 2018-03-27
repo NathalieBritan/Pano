@@ -4,7 +4,7 @@ import android.hardware.Camera;
 import android.view.View;
 
 import org.cyanogenmod.focal.CameraActivity;
-import org.cyanogenmod.focal.feats.SoftwareHdrCapture;
+import org.cyanogenmod.focal.common.feats.SoftwareHdrCapture;
 
 import java.util.List;
 

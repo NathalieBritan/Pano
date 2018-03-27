@@ -3,8 +3,8 @@ package org.cyanogenmod.focal.widgets;
 import android.content.Context;
 import android.hardware.Camera;
 
-import org.cyanogenmod.focal.CameraManager;
-import org.cyanogenmod.focal.SettingsStorage;
+import org.cyanogenmod.focal.managers.CameraManager;
+import org.cyanogenmod.focal.common.helpers.SettingsStorage;
 import org.cyanogenmod.focal.ui.CenteredSeekBar;
 
 import fr.xplod.focal.R;

@@ -15,7 +15,7 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 
-import org.cyanogenmod.focal.Util;
+import org.cyanogenmod.focal.common.Util;
 
 import fr.xplod.focal.R;
 

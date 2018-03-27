@@ -17,7 +17,7 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -33,7 +33,7 @@
         android:largeHeap="true"
         android:theme="@style/AppTheme" >
         <service android:name="org.cyanogenmod.focal.picsphere.PicSphereRenderingService" />
-        <service android:name="org.cyanogenmod.focal.feats.SoftwareHdrRenderingService" />
+        <service android:name="org.cyanogenmod.focal.common.feats.SoftwareHdrRenderingService" />
 
         <activity
             android:name="org.cyanogenmod.focal.ImageAct"
@@ -62,17 +62,17 @@
                 android:resource="@layout/keyguard_widget" />
         </activity>
 
-        <receiver android:name="org.cyanogenmod.focal.CameraButtonIntentReceiver" >
+        <receiver android:name="org.cyanogenmod.focal.common.CameraButtonIntentReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.CAMERA_BUTTON" />
             </intent-filter>
         </receiver>
-        <receiver android:name="org.cyanogenmod.focal.DisableCameraReceiver" >
+        <receiver android:name="org.cyanogenmod.focal.common.helpers.DisableCameraReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="org.cyanogenmod.focal.WidgetProvider" >
+        <receiver android:name="org.cyanogenmod.focal.common.helpers.WidgetProvider" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -81,9 +81,6 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_info" />
         </receiver>
-
-        <activity android:name="org.cyanogenmod.focal.TestActivity" >
-        </activity>
 
         <meta-data
             android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"

@@ -8,6 +8,9 @@ import android.widget.Toast;
 
 import com.getkeepsafe.relinker.ReLinker;
 
+import org.cyanogenmod.focal.common.helpers.Cockroach;
+import org.cyanogenmod.focal.managers.CameraManager;
+
 /**
  * Manages the application itself (on top of the activity), mainly to force Camera getting
  * closed in case of crash.
@@ -39,15 +42,11 @@ public class CameraApplication extends Application {
 
             @Override
             public void handlerException(final Thread thread, final Throwable throwable) {
-                //开发时使用Cockroach可能不容易发现bug，所以建议开发阶段在handlerException中用Toast谈个提示框，
-                //由于handlerException可能运行在非ui线程中，Toast又需要在主线程，所以new了一个new Handler(Looper.getMainLooper())，
-                //所以千万不要在下面的run方法中执行耗时操作，因为run已经运行在了ui线程中。
-                //new Handler(Looper.getMainLooper())只是为了能弹出个toast，并无其他用途
+
                 new Handler(Looper.getMainLooper()).post(new Runnable() {
                     @Override
                     public void run() {
                         try {
-                            //建议使用下面方式在控制台打印异常，这样就可以在Error级别看到红色log
                             Log.e("AndroidRuntime","--->CockroachException:"+thread+"<---",throwable);
                             Toast.makeText(CameraApplication.this, "Exception Happend\n" + thread + "\n" + throwable.toString(), Toast.LENGTH_SHORT).show();
 //                        throw new RuntimeException("..."+(i++));

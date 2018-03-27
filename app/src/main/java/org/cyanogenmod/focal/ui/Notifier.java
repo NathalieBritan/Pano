@@ -8,7 +8,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.cyanogenmod.focal.Util;
+import org.cyanogenmod.focal.common.Util;
 
 import fr.xplod.focal.R;
 

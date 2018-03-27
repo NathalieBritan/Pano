@@ -25,11 +25,11 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 
 import org.cyanogenmod.focal.CameraActivity;
-import org.cyanogenmod.focal.SnapshotManager;
+import org.cyanogenmod.focal.managers.SnapshotManager;
 import org.cyanogenmod.focal.Storage;
-import org.cyanogenmod.focal.Util;
+import org.cyanogenmod.focal.common.Util;
 import org.cyanogenmod.focal.appinterface.OnPanoramaCapture;
-import org.cyanogenmod.focal.feats.CaptureTransformer;
+import org.cyanogenmod.focal.common.feats.CaptureTransformer;
 import org.cyanogenmod.focal.ui.PanoProgressBar;
 import org.cyanogenmod.focal.ui.ShutterButton;
 

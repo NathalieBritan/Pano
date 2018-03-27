@@ -25,8 +25,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.cyanogenmod.focal.CameraActivity;
-import org.cyanogenmod.focal.ImageAct;
-import org.cyanogenmod.focal.Util;
+import org.cyanogenmod.focal.common.Util;
 
 import java.util.ArrayList;
 import java.util.HashMap;

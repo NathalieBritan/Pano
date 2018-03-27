@@ -5,7 +5,7 @@ import android.hardware.Camera;
 import android.view.View;
 
 import org.cyanogenmod.focal.CameraActivity;
-import org.cyanogenmod.focal.feats.BurstCapture;
+import org.cyanogenmod.focal.common.feats.BurstCapture;
 
 import fr.xplod.focal.R;
 

@@ -60,12 +60,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_softskin.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_effect_emboss.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_emboss.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_ring_video_normal.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_video_normal.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_effect_emboss.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_emboss.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_settings_rulethirds.png",
@@ -108,12 +108,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_timer_minus.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_placeholder.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_placeholder.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_ring_picsphere_hover.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_picsphere_hover.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_placeholder.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_placeholder.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_autoexposure_centerweighted.png",
@@ -136,12 +136,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_theatre.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_save.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_save.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_shutterspeed.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_shutterspeed.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_save.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_save.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_effect_mono.png",
@@ -216,12 +216,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_negative.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/hud_exposure_ring.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/hud_exposure_ring.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_beach.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_beach.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/hud_exposure_ring.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/hud_exposure_ring.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_pin_widget_active.png",
@@ -232,12 +232,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_ar.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_ring_switchcam_normal.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_switchcam_normal.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_ring_switchcam_normal.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_switchcam_normal.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_flash_auto.png",
@@ -248,12 +248,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_iso_auto.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_barcode.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_barcode.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_enhancing.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_enhancing.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_barcode.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_barcode.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_effect_solarize.png",
@@ -300,12 +300,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_flowers.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_nightportrait.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_nightportrait.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_fireworks.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_fireworks.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_nightportrait.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_nightportrait.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_gps_on.png",
@@ -356,12 +356,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_videofr_90.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/hand.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/hand.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_shutter_stop_normal.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_shutter_stop_normal.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/hand.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/hand.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_sweepstitch.png",
@@ -388,12 +388,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_picsphere_marker.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_burst.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_burst.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_videofr_60.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_videofr_60.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_burst.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_burst.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_flash.png",
@@ -408,16 +408,16 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_settings.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_burst_off.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_burst_off.png"
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_baby.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_baby.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_sharpness.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_sharpness.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_baby.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_baby.png"
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_burst_off.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_burst_off.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_effect_none.png",
@@ -444,12 +444,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_switchcam_hover.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_ring_camera_hover.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_camera_hover.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_ring_camera_hover.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/btn_ring_camera_hover.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_videofr_30.png",
@@ -504,12 +504,12 @@
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_flash_redeye.png"
     },
     {
-        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_snow.png",
-        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_snow.png"
-    },
-    {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_effect_blackboard.png",
         "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_effect_blackboard.png"
+    },
+    {
+        "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_widget_scenemode_snow.png",
+        "source": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/drawable-xhdpi/ic_widget_scenemode_snow.png"
     },
     {
         "merged": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_ring_camera_normal.png",

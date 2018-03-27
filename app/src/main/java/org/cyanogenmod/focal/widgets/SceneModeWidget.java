@@ -2,7 +2,7 @@ package org.cyanogenmod.focal.widgets;
 
 import android.content.Context;
 
-import org.cyanogenmod.focal.CameraManager;
+import org.cyanogenmod.focal.managers.CameraManager;
 import fr.xplod.focal.R;
 
 public class SceneModeWidget extends SimpleToggleWidget {

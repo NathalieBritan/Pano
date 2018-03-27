@@ -5,8 +5,8 @@ import android.util.Log;
 
 import org.cyanogenmod.focal.CameraActivity;
 import fr.xplod.focal.R;
-import org.cyanogenmod.focal.SnapshotManager;
-import org.cyanogenmod.focal.feats.CaptureTransformer;
+import org.cyanogenmod.focal.managers.SnapshotManager;
+import org.cyanogenmod.focal.common.feats.CaptureTransformer;
 import org.cyanogenmod.focal.ui.ShutterButton;
 
 /**

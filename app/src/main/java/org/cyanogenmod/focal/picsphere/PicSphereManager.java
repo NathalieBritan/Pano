@@ -32,7 +32,7 @@ import android.widget.FrameLayout;
 
 import org.cyanogenmod.focal.CameraActivity;
 import fr.xplod.focal.R;
-import org.cyanogenmod.focal.SnapshotManager;
+import org.cyanogenmod.focal.managers.SnapshotManager;
 
 import java.io.File;
 import java.io.FileOutputStream;

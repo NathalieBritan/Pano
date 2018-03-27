@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@+id/camera_app_root"
-             xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="fill_parent"
-             android:layout_height="fill_parent"
->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/camera_app_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
     <FrameLayout
         android:id="@+id/gl_renderer_container"
@@ -17,7 +16,7 @@
         android:id="@+id/rule_of_thirds"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
     <org.cyanogenmod.focal.ui.PreviewFrameLayout
         android:id="@+id/camera_preview_overlay_container"
@@ -32,7 +31,7 @@
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:alpha="0.0"
-            android:scaleType="fitXY"/>
+            android:scaleType="fitXY" />
 
     </org.cyanogenmod.focal.ui.PreviewFrameLayout>
 
@@ -51,13 +50,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/recording"
-            android:src="@drawable/ic_recording_pin"/>
+            android:src="@drawable/ic_recording_pin" />
 
         <TextView
             android:id="@+id/recording_timer_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="8dp"/>
+            android:paddingLeft="8dp" />
 
     </LinearLayout>
 
@@ -70,7 +69,7 @@
             android:id="@+id/hud_ring_focus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center_horizontal"/>
+            android:layout_gravity="center_vertical|center_horizontal" />
 
         <org.cyanogenmod.focal.ui.ExposureHudRing
             android:id="@+id/hud_ring_exposure"
@@ -78,7 +77,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:translationX="120dp"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
     </FrameLayout>
 
@@ -88,24 +87,23 @@
         android:layout_height="fill_parent"
         android:layout_gravity="left|bottom"
         android:gravity="bottom"
-        android:orientation="vertical">
-    </LinearLayout>
+        android:orientation="vertical"></LinearLayout>
 
     <org.cyanogenmod.focal.ui.SideBar
-    android:id="@+id/sidebar_scroller"
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    android:layout_gravity="left"
-    android:layout_marginTop="32dp"
-    android:layout_marginBottom="32dp">
+        android:id="@+id/sidebar_scroller"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp">
 
-    <LinearLayout
-    android:id="@+id/sidebar_container"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/sidebar_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    </LinearLayout>
+        </LinearLayout>
 
     </org.cyanogenmod.focal.ui.SideBar>
 
@@ -125,14 +123,14 @@
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_gravity="right"
-        android:layout_margin="2dp"/>
+        android:layout_margin="2dp" />
 
     <org.cyanogenmod.focal.ui.SavePinger
         android:id="@+id/save_pinger"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_gravity="right"
-        android:layout_margin="2dp"/>
+        android:layout_margin="2dp" />
 
     <org.cyanogenmod.focal.ui.PanoProgressBar
         android:id="@+id/panorama_progress_bar"
@@ -141,7 +139,7 @@
         android:layout_gravity="right|top"
         android:layout_marginRight="72dp"
         android:layout_marginTop="8dp"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
     <FrameLayout
         android:id="@+id/thumb_flinger_container"
@@ -178,14 +176,14 @@
             android:contentDescription="@string/shutter_button"
             android:onClick="picClick"
             android:padding="5dp"
-            android:src="@drawable/pic"/>
+            android:src="@drawable/pic" />
 
         <org.cyanogenmod.focal.ui.SwitchRingPad
             android:id="@+id/switch_ring_pad"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal|bottom"
-            android:visibility="visible"/>
+            android:visibility="visible" />
 
         <org.cyanogenmod.focal.ui.ShutterButton
             android:id="@+id/btn_shutter"
@@ -195,7 +193,7 @@
             android:layout_marginBottom="-24dp"
             android:clickable="true"
             android:contentDescription="@string/shutter_button"
-            android:src="@drawable/btn_shutter_photo"/>
+            android:src="@drawable/btn_shutter_photo" />
 
         <org.cyanogenmod.focal.ui.Notifier
             android:id="@+id/notifier_container"
@@ -215,7 +213,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="left"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="#FFFFFFFF"/>
+                android:textColor="#FFFFFFFF" />
 
         </org.cyanogenmod.focal.ui.Notifier>
 
@@ -243,7 +241,7 @@
             android:clickable="false"
             android:contentDescription="@string/app_name"
             android:minHeight="400dp"
-            android:padding="8dp"/>
+            android:padding="8dp" />
 
         <ImageButton
             android:id="@+id/button_open_in_gallery"
@@ -256,7 +254,7 @@
             android:layout_marginTop="8dp"
             android:layout_toLeftOf="@+id/button_retouch"
             android:background="@drawable/review_drawer_button"
-            android:src="@drawable/ic_gallery"/>
+            android:src="@drawable/ic_gallery" />
 
         <ImageButton
             android:id="@+id/button_retouch"
@@ -270,7 +268,7 @@
             android:background="@drawable/review_drawer_button"
             android:src="@drawable/ic_retouch"
             android:textColor="@color/clock_white"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/drawer_border"
@@ -278,7 +276,7 @@
             android:layout_height="4dp"
             android:layout_alignParentBottom="true"
             android:layout_weight="0"
-            android:background="#FF0099cc"/>
+            android:background="#FF0099cc" />
 
     </org.cyanogenmod.focal.ui.ReviewDrawer>
 
@@ -293,7 +291,7 @@
         android:drawableRight="@drawable/ic_picsphere_undo"
         android:src="@drawable/ic_picsphere_undo"
         android:text="@string/picsphere_undo_button"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/txt_helper"
@@ -306,6 +304,6 @@
         android:shadowDy="0"
         android:shadowRadius="12"
         android:textSize="18sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
 </FrameLayout>

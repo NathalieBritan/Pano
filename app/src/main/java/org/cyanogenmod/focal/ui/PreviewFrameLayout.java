@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import org.cyanogenmod.focal.Util;
+import org.cyanogenmod.focal.common.Util;
 
 /**
  * A layout which handles the preview aspect ratio.

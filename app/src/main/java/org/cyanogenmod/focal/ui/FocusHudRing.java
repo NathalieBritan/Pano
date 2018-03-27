@@ -6,8 +6,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.cyanogenmod.focal.CameraManager;
-import org.cyanogenmod.focal.FocusManager;
+import org.cyanogenmod.focal.managers.CameraManager;
+import org.cyanogenmod.focal.managers.FocusManager;
 import fr.xplod.focal.R;
 
 /**

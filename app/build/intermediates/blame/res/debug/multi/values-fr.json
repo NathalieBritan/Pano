@@ -12,7 +12,15 @@
                     "endOffset": 339
                 },
                 "from": {
-                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml"
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 902,
+                        "endLine": 27,
+                        "endColumn": 19,
+                        "endOffset": 1186
+                    }
                 }
             },
             {
@@ -25,7 +33,15 @@
                     "endOffset": 519
                 },
                 "from": {
-                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml"
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 3270,
+                        "endLine": 96,
+                        "endColumn": 19,
+                        "endOffset": 3445
+                    }
                 }
             },
             {
@@ -38,7 +54,15 @@
                     "endOffset": 954
                 },
                 "from": {
-                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml"
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1408,
+                        "endLine": 48,
+                        "endColumn": 19,
+                        "endOffset": 1838
+                    }
                 }
             },
             {
@@ -51,7 +75,15 @@
                     "endOffset": 1171
                 },
                 "from": {
-                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml"
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1191,
+                        "endLine": 34,
+                        "endColumn": 19,
+                        "endOffset": 1403
+                    }
                 }
             },
             {
@@ -64,7 +96,15 @@
                     "endOffset": 2315
                 },
                 "from": {
-                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml"
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 1843,
+                        "endLine": 83,
+                        "endColumn": 19,
+                        "endOffset": 2982
+                    }
                 }
             },
             {
@@ -77,7 +117,15 @@
                     "endOffset": 2598
                 },
                 "from": {
-                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml"
+                    "file": "/Users/Natalie/Downloads/-OpenGL-PanoramaCamera_Android-master/app/src/main/res/values-fr/arrays.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 2987,
+                        "endLine": 91,
+                        "endColumn": 19,
+                        "endOffset": 3265
+                    }
                 }
             }
         ]
