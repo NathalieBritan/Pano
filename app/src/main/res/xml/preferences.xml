@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/settings">
+    <PreferenceCategory android:title="@string/rendering_options" android:key="pref_key_rendering_options">
+        <ListPreference android:entries="@array/blendingPrefs" android:title="@string/blending_settings" android:key="blendingPreferences" android:summary="@string/linear_blending_summary" android:defaultValue="0" android:entryValues="@array/blendingPrefsValues" />
+        <ListPreference android:entries="@array/projectionPrefs" android:title="@string/projection_settings" android:key="pref_key_projection_surface" android:summary="@string/spherical_proj_summary" android:defaultValue="3" android:entryValues="@array/projectionPrefsValues" />
+        <SwitchPreference android:title="@string/anti_aliasing" android:key="pref_key_antialiasing" android:summary="@string/anti_aliasing_summary" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/orientation_settings" android:key="pref_key_autostraighten" android:summary="@string/autostraighten_summary" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/cropping_settings" android:key="pref_key_auto_crop" android:summary="@string/cropping_summary" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/auto_exposure_settings" android:key="pref_key_auto_exposure" android:summary="@string/auto_exposure_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/output_options" android:key="pref_key_output_options">
+        <ListPreference android:entries="@array/outputPrefs" android:title="@string/output_settings" android:key="outputPreferences" android:summary="@string/prefs_summ_output_size" android:defaultValue="3500" android:entryValues="@array/outputPrefsValues" />
+        <EditTextPreference android:title="@string/output_album" android:key="outputAlbumPreferences" android:defaultValue="@string/default_directory" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_options" android:key="pref_key_notification_options">
+        <SwitchPreference android:title="@string/notification_settings" android:key="pref_key_notification_settings" android:summary="@string/notification_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preview_options" android:key="pref_key_preview_options">
+        <SwitchPreference android:title="@string/preview_settings" android:key="pref_key_preview_settings" android:summary="@string/preview_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/advanced_options" android:key="pref_key_advanced_options">
+        <SwitchPreference android:title="@string/auto_delete_settings" android:key="pref_key_auto_delete_settings" android:summary="@string/auto_delete_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

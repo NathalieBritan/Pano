@@ -29,6 +29,10 @@ public class ImageAct extends Activity {
         BigImageViewer.initialize(GlideImageLoader.with(this));
         setContentView(R.layout.activity_big_img);
         mBigImageView = (BigImageView) findViewById(R.id.mBigImage);
+        String pic = getIntent().getStringExtra("pic");
+        if(!pic.equals("")){
+            mBigImageView.showImage(Uri.parse("file:///" + pic));
+        }
         int id = getIntent().getIntExtra("id", 0);
         if (id == 0)
             mBigImageView.showImage(Uri.parse("file:///" + getRecentlyPhotoPath(this)));

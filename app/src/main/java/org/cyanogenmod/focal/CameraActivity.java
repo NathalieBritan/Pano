@@ -1,17 +1,34 @@
 package org.cyanogenmod.focal;
 
+
 import android.app.Activity;
 import android.app.ActivityManager;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.pm.ConfigurationInfo;
 import android.content.res.Configuration;
+import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Point;
 import android.hardware.Camera;
+import android.media.MediaScannerConnection;
+import android.net.Uri;
 import android.opengl.GLSurfaceView;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
+import android.preference.PreferenceManager;
+import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.NotificationManagerCompat;
+import android.support.v4.app.TaskStackBuilder;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.KeyEvent;
@@ -28,6 +45,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.cyanogenmod.focal.Bimostitch.BimostitchService;
+import com.facebook.rethinkvision.Bimostitch.BimostitchSettings;
+import org.cyanogenmod.focal.Bimostitch.Constants;
 import org.cyanogenmod.focal.appinterface.OnPanoramaCapture;
 import org.cyanogenmod.focal.common.feats.CaptureTransformer;
 import org.cyanogenmod.focal.common.Profiler;
@@ -54,7 +74,12 @@ import org.cyanogenmod.focal.ui.ThumbnailFlinger;
 import org.cyanogenmod.focal.ui.WidgetRenderer;
 import org.cyanogenmod.focal.ui.showcase.ShowcaseView;
 
+import java.io.File;
+import java.util.ArrayList;
+
 import fr.xplod.focal.R;
+
+import static android.widget.Toast.LENGTH_SHORT;
 
 
 public class CameraActivity extends Activity implements CameraManager.CameraReadyListener,
@@ -88,10 +113,11 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
 
     private SideBar mSideBar;
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
+    public void onDestroy() {
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(this.mProgressReceiver);
         mCamManager.releaseCamera();
         mCamManager.forceCloseCamera();
+        super.onDestroy();
     }
 
     private WidgetRenderer mWidgetRenderer;
@@ -131,6 +157,12 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
     private final static String KEY_SHOWCASE_PANORAMA = "SHOWCASE_PANORAMA";
     private final static String KEY_SHOWCASE_PICSPHERE = "SHOWCASE_PICSPHERE";
 
+
+    public static final String IMAGE_COUNT = "image_count";
+    private int image_count_before = 0;
+    private BroadcastReceiver mProgressReceiver = new stitchingBroadcast();
+    protected Boolean mReady = Boolean.valueOf(false);
+
     /**
      * Gesture listeners to apply on camera previews views
      */
@@ -139,7 +171,7 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
         public boolean onTouch(View v, MotionEvent ev) {
             if (ev.getAction() == MotionEvent.ACTION_UP) {
                 mSideBar.clampSliding();
-                mReviewDrawer.clampSliding();
+                //mReviewDrawer.clampSliding();
             }
 
             // Process HUD gestures only if we aren't pinching
@@ -154,6 +186,37 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
         }
     };
 
+    class stitchingBroadcast extends BroadcastReceiver {
+        stitchingBroadcast() {
+        }
+
+        public void onReceive(Context context, Intent intent) {
+            if (intent.getBooleanExtra(BimostitchService.STITCH_DONE_FLAG, false)) {
+                String[] panoramas = null;
+                Bundle bundle = intent.getExtras();
+                if (bundle != null) {
+                    panoramas = bundle.getStringArray(Constants.BIMOSTITCH_PANORAMA_PATHS);
+                }
+                if (intent.getBooleanExtra(BimostitchService.DELETE_TEMP_FILES, true)) {
+                    clearDir(CameraActivity.this, Constants.TEMP_DIR);
+                    if (PreferenceManager.getDefaultSharedPreferences(CameraActivity.this).getBoolean(Constants.KEY_AUTO_DELETE_PREFERENCE, false)) {
+                       deleteImages(bundle.getStringArray(Constants.SELECTED_IMAGES));
+                    }
+                }
+                if (panoramas != null) {
+                    addToGallery(CameraActivity.this, panoramas);
+                    onCapturePanorama(true, panoramas[0]);
+                }
+                if (!CameraActivity.this.mReady.booleanValue() && PreferenceManager.getDefaultSharedPreferences(CameraActivity.this).getBoolean(Constants.KEY_NOTIFICATION_PREFERENCE, true)) {
+                    if (panoramas != null) {
+                        CameraActivity.this.createNotification(panoramas.length);
+                    } else {
+                        CameraActivity.this.createNotification(0);
+                    }
+                }
+            }
+        }
+    }
     /**
      * Event: Activity created
      */
@@ -241,10 +304,47 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
 
         startShowcaseWelcome();
 
+        Intent intent;
+        PreferenceManager.setDefaultValues(this, R.xml.preferences, true);
+        LocalBroadcastManager.getInstance(this).registerReceiver(this.mProgressReceiver, new IntentFilter(BimostitchService.BACKGROUND_STITCH));
+        intent = getIntent();
+        if (savedInstanceState == null && intent != null) {
+            String action = intent.getAction();
+            String type = intent.getType();
+            if (type != null && "android.intent.action.SEND_MULTIPLE".equals(action) && type.startsWith("image/")) {
+                handleSendMultipleImages(intent);
+            }
+        } else if (savedInstanceState != null) {
+            this.image_count_before = savedInstanceState.getInt(IMAGE_COUNT);
+        }
+
     }
 
     public int getOrientation() {
         return mOrientationCompensation;
+    }
+
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        savedInstanceState.putInt(IMAGE_COUNT, this.image_count_before);
+        super.onSaveInstanceState(savedInstanceState);
+    }
+
+    private void deleteImages(String[] stringArray) {
+        if (stringArray != null) {
+            for (String deleteImage : stringArray) {
+                deleteImage(deleteImage);
+            }
+        }
+    }
+
+    public void onResume() {
+        super.onResume();
+        this.mReady = Boolean.valueOf(true);
+    }
+
+    public void onPause() {
+        super.onPause();
+        this.mReady = Boolean.valueOf(false);
     }
 
     public void startShowcaseWelcome() {
@@ -299,75 +399,6 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
         }
     }
 
-    @Override
-    protected void onPause() {
-        // Pause the camera preview
-//        mPaused = true;
-//
-//        if (mCamManager != null) {
-//            mCamManager.pause();
-//        }
-//
-//        if (mSnapshotManager != null) {
-//            mSnapshotManager.onPause();
-//        }
-//
-//        if (mOrientationListener != null) {
-//            mOrientationListener.disable();
-//        }
-//
-//        if (mPicSphereManager != null) {
-//            mPicSphereManager.onPause();
-//        }
-//
-//        if (SoftwareHdrCapture.isServiceBound()) {
-//            try {
-//                unbindService(SoftwareHdrCapture.getServiceConnection());
-//            } catch (IllegalArgumentException e) {
-//                // Do nothing
-//            }
-//        }
-//
-//        // Reset capture transformers on pause, if we are in
-//        // PicSphere mode
-//        if (mCameraMode == CAMERA_MODE_PICSPHERE) {
-//            mCaptureTransformer = null;
-//        }
-
-        super.onPause();
-    }
-
-    /*@Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (keyCode == KeyEvent.KEYCODE_HOME) {
-            onBackPressed();
-            return true;
-        }
-        return super.onKeyDown(keyCode, event);
-    }*/
-    @Override
-    protected void onResume() {
-        super.onResume();
-        // Restore the camera preview
-//        mPaused = false;
-//
-//        if (mCamManager != null) {
-//            mCamManager.resume();
-//        }
-//
-//        if (mSnapshotManager != null) {
-//            mSnapshotManager.onResume();
-//        }
-//
-//        if (mPicSphereManager != null) {
-//            mPicSphereManager.onResume();
-//        }
-//
-//        mOrientationListener.enable();
-//
-//        mReviewDrawer.close();
-
-    }
 
     @Override
     public void onBackPressed() {
@@ -378,10 +409,7 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
             mWidgetRenderer.hideWidgets();
             mWidgetRenderer.notifySidebarSlideClose();
             mCancelSideBarClose = true;
-        }else {
-            super.onBackPressed();
         }
-        super.onDestroy();
     }
 
     /**
@@ -1539,5 +1567,193 @@ public class CameraActivity extends Activity implements CameraManager.CameraRead
             }
             mReviewDrawer.open();
         }
+    }
+
+    private void handleSendMultipleImages(Intent intent) {
+        ArrayList<Uri> imageUris = intent.getParcelableArrayListExtra("android.intent.extra.STREAM");
+        if (imageUris != null) {
+            int size = imageUris.size();
+            if (size > 0) {
+                String[] paths = new String[size];
+                for (int i = 0; i < size; i++) {
+                    paths[i] = getRealPathFromURI(this, (Uri) imageUris.get(i));
+                }
+                stitch(paths);
+            }
+        }
+    }
+
+    public void startCameraActivity(View view) {
+        if (ContextCompat.checkSelfPermission(this, "android.permission.READ_EXTERNAL_STORAGE") == 0 && ContextCompat.checkSelfPermission(this, "android.permission.WRITE_EXTERNAL_STORAGE") == 0) {
+            Toast.makeText(this, getResources().getString(R.string.camera_notification), Toast.LENGTH_LONG).show();
+            Cursor cursor = loadCursor();
+            this.image_count_before = cursor.getCount();
+            cursor.close();
+            Intent cameraIntent = new Intent("android.media.action.STILL_IMAGE_CAMERA");
+            if (cameraIntent.resolveActivity(getPackageManager()) != null) {
+                startActivityForResult(cameraIntent, 2);
+            } else {
+                Toast.makeText(this, getResources().getString(R.string.no_camera_app), LENGTH_SHORT).show();
+            }
+        }
+    }
+
+    public void stitch(String[] imagesPaths) {
+        if (!checkReadPermission(this) || !checkWritePermission(this)) {
+            return;
+        }
+        Toast.makeText(this, getString(R.string.background_stitch_started), Toast.LENGTH_LONG).show();
+        BimostitchService.startService(this, new BimostitchSettings(this), imagesPaths, true);
+    }
+
+    public void stitchCameraPhotos(String[] imagesPaths) {
+        BimostitchSettings settings = new BimostitchSettings(CameraActivity.this);
+        settings.stitchingFromCamera = true;
+        BimostitchService.startService(CameraActivity.this, settings, imagesPaths, true);
+    }
+
+    public void addToGallery(Context context, String[] panoramas) {
+        if (panoramas != null) {
+            for (String file : panoramas) {
+                insertImage(context, new File(file), null);
+            }
+        }
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch (requestCode) {
+            case 2:
+                exitingCamera();
+                return;
+            default:
+                return;
+        }
+    }
+
+    private void exitingCamera() {
+        Cursor cursor = loadCursor();
+        String[] paths = getImagePaths(cursor, CameraActivity.this.image_count_before);
+        if (paths != null && paths.length > 1) {
+            stitchCameraPhotos(paths);
+        }
+        cursor.close();
+    }
+
+    public static void insertImage(Context context, File file, MediaScannerConnection.OnScanCompletedListener callback) {
+        MediaScannerConnection.scanFile(context, new String[]{file.getAbsolutePath()}, null, callback);
+    }
+
+    public static File getAlbumStorageDir(String albumName) {
+        File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), albumName);
+        file.mkdirs();
+        return file;
+    }
+
+    public static File getPrivateStorageDir(Context context, String directory_name) {
+        File dir = new File(context.getExternalFilesDir(null), directory_name);
+        dir.mkdirs();
+        return dir;
+    }
+
+    public static void clearDir(Context context, String directory_name) {
+        File dir = new File(context.getExternalFilesDir(null), directory_name);
+        if (dir.isDirectory()) {
+            String[] children = dir.list();
+            for (String file : children) {
+                new File(dir, file).delete();
+            }
+        }
+    }
+
+    public Cursor loadCursor() {
+        String orderBy = "date_added";
+        return getContentResolver().query(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, new String[]{"_data", "_id"}, null, null, "date_added");
+    }
+
+    public String[] getImagePaths(Cursor cursor, int startPosition) {
+        int size = cursor.getCount() - startPosition;
+        if (size <= 0) {
+            return null;
+        }
+        String[] paths = new String[size];
+        int dataColumnIndex = cursor.getColumnIndex("_data");
+        for (int i = startPosition; i < cursor.getCount(); i++) {
+            cursor.moveToPosition(i);
+            paths[i - startPosition] = cursor.getString(dataColumnIndex);
+        }
+        return paths;
+    }
+
+    public static String getRealPathFromURI(Context context, Uri contentUri) {
+        Cursor cursor = context.getContentResolver().query(contentUri, new String[]{"_data"}, null, null, null);
+        if (cursor == null) {
+            return null;
+        }
+        String path = null;
+        if (cursor.moveToFirst()) {
+            path = cursor.getString(cursor.getColumnIndex("_data"));
+        }
+        cursor.close();
+        return path;
+    }
+
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        switch (requestCode) {
+            case 19:
+                if (grantResults.length <= 0 || grantResults[0] != 0) {
+                    finish();
+                    return;
+                }
+                if (ContextCompat.checkSelfPermission(CameraActivity.this, "android.permission.WRITE_EXTERNAL_STORAGE") == 0) {
+                    return;
+                }
+                if (ActivityCompat.shouldShowRequestPermissionRationale(CameraActivity.this, "android.permission.READ_EXTERNAL_STORAGE")) {
+                    return;
+                }
+                ActivityCompat.requestPermissions(CameraActivity.this, new String[]{"android.permission.WRITE_EXTERNAL_STORAGE"}, 20);
+                return;
+            case 20:
+                if (grantResults.length <= 0 || grantResults[0] != 0) {
+                    finish();
+                    return;
+                }
+                return;
+            default:
+                return;
+        }
+    }
+
+    public void createNotification(int panorama_count) {
+        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(CameraActivity.this).setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher)).setSmallIcon(R.drawable.ic_launcher).setContentTitle(getResources().getString(R.string.notification_title)).setContentText(getResources().getString(R.string.notification_text) + " " + panorama_count);
+        Intent resultIntent = new Intent(CameraActivity.this, CameraActivity.class);
+        TaskStackBuilder stackBuilder = TaskStackBuilder.create(CameraActivity.this);
+        stackBuilder.addNextIntent(resultIntent);
+        mBuilder.setContentIntent(stackBuilder.getPendingIntent(0, 134217728));
+        NotificationManagerCompat mNotificationManager = NotificationManagerCompat.from(CameraActivity.this);
+        mBuilder.setAutoCancel(true);
+        mBuilder.setDefaults(3);
+        mNotificationManager.notify(1, mBuilder.build());
+    }
+
+    private void deleteImage(String filePath) {
+        Cursor cursor = getContentResolver().query(MediaStore.Images.Media.getContentUri("external"), new String[]{"_id"}, "_data LIKE ?", new String[]{filePath}, null);
+        cursor.moveToFirst();
+        getContentResolver().delete(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "_id=?", new String[]{cursor.getInt(cursor.getColumnIndex("0")) + ""});
+        cursor.close();
+    }
+
+    public static boolean checkReadPermission(Context context) {
+        if (Build.VERSION.SDK_INT < 23 || ContextCompat.checkSelfPermission(context, "android.permission.READ_EXTERNAL_STORAGE") == 0) {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean checkWritePermission(Context context) {
+        if (Build.VERSION.SDK_INT < 23 || ContextCompat.checkSelfPermission(context, "android.permission.WRITE_EXTERNAL_STORAGE") == 0) {
+            return true;
+        }
+        return false;
     }
 }

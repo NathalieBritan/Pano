@@ -293,4 +293,56 @@
         <item>1/2000</item>
         <item>1/3333</item>
     </string-array>
+
+
+    <array name="blendingPrefs">
+        <item>@string/linear_blending_summary</item>
+        <item>@string/advanced_blending_summary</item>
+        <item>@string/voronoi_blending_summary</item>
+        <item>@string/no_blending_summary</item>
+    </array>
+    <array name="blendingPrefsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="outputPrefs">
+        <item>@string/prefs_summ_output_size</item>
+        <item>@string/prefs_summ_output_size_2</item>
+        <item>@string/prefs_summ_output_size_3</item>
+        <item>@string/prefs_summ_output_size_4</item>
+        <item>@string/prefs_summ_output_size_5</item>
+        <item>@string/prefs_summ_output_size_6</item>
+        <item>@string/prefs_summ_output_size_7</item>
+        <item>@string/prefs_summ_output_size_8</item>
+        <item>@string/prefs_summ_output_size_9</item>
+        <item>@string/prefs_summ_output_size_10</item>
+        <item>@string/prefs_summ_output_size_11</item>
+    </array>
+    <array name="outputPrefsValues">
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+        <item>4500</item>
+        <item>5000</item>
+        <item>5500</item>
+        <item>10000</item>
+    </array>
+    <array name="projectionPrefs">
+        <item>@string/spherical_proj_summary</item>
+        <item>@string/cylindrical_proj_summary</item>
+        <item>@string/planar_proj_summary</item>
+        <item>@string/auto_detect_proj_summary</item>
+    </array>
+    <array name="projectionPrefsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
 </resources>
